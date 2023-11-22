@@ -1,0 +1,919 @@
+@9001 = ~[Uu]tilisable\([ %tab%]+[Ss]eulement\|[ %tab%]+[Uu]niquement\)?[ %tab%]+[Pp]ar[ %tab%]*:~
+@9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
+@0 = ~Illo le Tatoueur~
+@101 = ~Tatouage de protection~
+@102 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Classe d'armure : +1
+
+Spécial : ne peut pas être combiné avec un autre tatouage de protection~
+
+@103 = ~Tatouage de protection supérieure~
+@104 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Classe d'armure : +2
+
+Spécial : ne peut pas être combiné avec un autre tatouage de protection~
+
+@105 = ~Tatouage de précision~
+@106 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+TAC0 : +1
+
+Spécial : ne peut pas être combiné avec un autre tatouage de précision~
+
+@107 = ~Tatouage de précision suprême~
+@108 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+TAC0 : +3
+Chances de coup critique : +5%
+
+Spécial : ne peut pas être combiné avec un autre tatouage de précision~
+
+@109 = ~Tatouage de résistance~
+@1010 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Jets de sauvegarde : +1
+
+Spécial : ne peut pas être combiné avec un autre tatouage de résistance~
+
+@1011 = ~Tatouage de résistance supérieure~
+@1012 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Jets de sauvegarde : +2
+
+Spécial : ne peut pas être combiné avec un autre tatouage de résistance~
+
+@1013 = ~Tatouage d'endurance~
+@1014 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Maximum de points de vie : +3
+
+Spécial : ne peut pas être combiné avec un autre tatouage d'endurance~
+
+@1015 = ~Tatouage d'endurance supérieure~
+@1016 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Maximum de points de vie : +9~
+
+@1017 = ~Tatouage de spécialisation~
+@1018 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
++1 point de dégât sur toutes les attaques
+
+Spécial : ne peut pas être combiné avec un autre tatouage de spécialisation~
+
+@1019 = ~Tatouage de spécialisation suprême~
+@1020 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
++3 points de dégât sur toutes les attaques
+TAC0 : +3
+
+Spécial : ne peut pas être combiné avec un autre tatouage de spécialisation~
+
+@1021 = ~Tatouage des trois trésors~
+@1022 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Points de vie +5%
+Gain de point d'expérience : +5%
+Résistances : +5%~
+
+@1023 = ~Tatouage du fourbe~
+@1024 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine tannée. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Multiplicateur d'attaque sournoise : +1~
+
+@1025 = ~Tatouage du veinard~
+@1026 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Chance : +1~
+
+@201 = ~Tatouage de puissance~
+@202 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Force : +1
+
+Spécial : ne peut pas être combiné avec un autre tatouage de puissance~
+
+@203 = ~Tatouage de puissance supérieure~
+@204 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Force : +2
+
+Spécial : ne peut pas être combiné avec un autre tatouage de puissance~
+
+@205 = ~Tatouage d'action~
+@206 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Dextérité : +1
+
+Spécial : ne peut pas être combiné avec un autre tatouage d'action~
+
+@207 = ~Tatouage d'action supérieure~
+@208 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Dextérité : +2
+
+Spécial : ne peut pas être combiné avec un autre tatouage d'action~
+
+@209 = ~Tatouage de santé~
+@2010 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Constitution : +1
+
+Spécial : ne peut pas être combiné avec un autre tatouage de santé~
+
+@2011 = ~Tatouage de santé supérieure~
+@2012 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Constitution : +2
+
+Spécial : ne peut pas être combiné avec un autre tatouage de santé~
+
+@2013 = ~Tatouage de l'esprit~
+@2014 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +1
+
+Spécial : ne peut pas être combiné avec le tatouage de l'âme~
+
+@2015 = ~Tatouage de l'âme~
+@2016 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +2
+Spécial : ne peut pas être combiné avec le tatouage de l'esprit~
+
+@2017 = ~Tatouage de perspicacité~
+@2018 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Intelligence : +1
+
+Spécial : ne peut pas être combiné avec le tatouage de révélation~
+
+@2019 = ~Tatouage de révélation~
+@2020 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Intelligence : +2
+
+Spécial : ne peut pas être combiné avec le tatouage de perspicacité~
+
+@2021 = ~Tatouage de présence~
+@2022= ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Charisme : +1
+
+Spécial : ne peut pas être combiné avec un autre tatouage de présence~
+
+@2023 = ~Tatouage de présence supérieure~
+@2024 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Charisme : +2
+
+Spécial : ne peut pas être combiné avec un autre tatouage de présence~
+
+@2025 = ~Tatouage de transcendance~
+@2026 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Toutes les caractéristiques : +1~
+
+@301 = ~Tatouage de la Succube~
+@302 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Charisme : +1
+Résistance à la magie : +5%
+Permet de lancer Toucher drainant (un niveau perdu , au contact) et Charme-personne une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.~
+@3021 = ~Toucher drainant~
+@3022 = ~Toucher drainant (Nécromancie)
+Niveau : 5
+Sphère : nécromancie
+Portée : Toucher
+Durée : Spéciale
+Temps d'incantation : 1
+Zone d'effet : Créature touchée
+Jet de sauvegarde : Spécial
+
+Lorsqu'il lance ce sort, le lanceur de sort doit toucher son adversaire afin de préparer les effets à venir. Un objet est alors créé et l'attaque suivante doit être faite par le prêtre avec cet objet dans les 18 secondes. Si la première attaque échoue, l'objet disparaît et le sort est perdu. Par contre, si l'attaque est réussie, la victime perd un niveau d'expérience. Ce sort ne peut être dissipé qu'entre son incantation et l'attaque nécessaire à ses effets.~
+
+@303 = ~Tatouage du Minotaure~
+@304 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Force +1
+Permet de lancer Labyrinthe une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.~
+
+@305 = ~Tatouage de la Nymphe~
+@306 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Charisme : +2
+Permet de lancer Beauté de la nature une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.~
+
+@307 = ~Tatouage de la Méduse~
+@308 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Transmutation de la Chair en Pierre Et Poison (au contact) une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.~
+
+@309 = ~Tatouage du Troll~
+@3010 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Force : +1
+Constitution : +1
+Immunité à la peur
+Régénération : 1 point de vie par round
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.~
+
+@3011 = ~Tatouage du Modrone~
+@3012 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +1
+Intelligence : +1
+Immunité à l'immobilisation et aux charmes
+Permet de lancer Vision véritable une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.~
+
+@3013 = ~Tatouage du démon~
+@3014 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Force : +1
+Résistance à la magie : +10%
+Résistance au feu : +50%
++1 attaque par round
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.
+
+Uniquement utilisable par :
+Personnage mauvais~
+
+@3015 = ~Tatouage du Maître cerveau~
+@3016 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Débilité et Mot de pouvoir : Étourdissement une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de créature.~
+
+@401 = ~Tatouage de guerrier~
+@402 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Force : +1
+Classe d'armure : +1
+Maximum de points de vie : +3
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Guerrier
+Rôdeur
+Paladin
+Moine~
+
+@403 = ~Tatouage de guerrier suprême~
+@404 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Force : +3
+Classe d'armure : +3
+Maximum de points de vie : +9
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Guerrier
+Rôdeur
+Paladin
+Moine~
+
+@405 = ~Tatouage de mage~
+@406 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Intelligence : +1
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 3
+-1 au temps d'incantation des sorts
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Mage
+Barde~
+@4061 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Intelligence : +1
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 3
+Dégâts infligés : +10%
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Mage
+Barde~
+
+@407 = ~Tatouage d'archimage~
+@408 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Intelligence : +3
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 9
+-3 au temps d'incantation des sorts
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Mage
+Barde~
+@4081 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Intelligence : +3
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 9
+Dégâts infligés : +30%
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Mage
+Barde~
+
+@409 = ~Tatouage de voleur~
+@4010 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Dextérité : +1
+TAC0 : +1
+Compétences de voleur : +10%
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Voleur~
+
+@4011 = ~Tatouage de maître voleur~
+@4012 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Dextérité : +3
+TAC0 : +3
+Compétences de voleur : +30%
+Chance : +1
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Voleur~
+
+@4013 = ~Tatouage de prêtre~
+@4014 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +1
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 3
+Niveau de renvoi des morts-vivants : +2
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Prêtre~
+@40141 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +1
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 4
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Prêtre~
+
+@4015 = ~Tatouage d'archiprêtre~
+@4016 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +3
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 7
+Niveau de renvoi des morts-vivants : +6
+Permet de lancer Harmonie défensive (CA+4, 1 tour) une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Prêtre~
+@40161 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +3
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 7
+Permet de mémoriser un sort supplémentaire des niveau 5
+Permet de lancer Harmonie défensive (CA+4, 1 tour) une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Seulement utilisable par :
+Prêtre~
+
+@4017 = ~Tatouage du maître du Shi~
+@4018 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Dextérité : +1
+Constitution : +1
+Sagesse : +1
++1 Attaque par round
++3 points de dégâts avec les poings
+
+Uniquement utilisable par :
+Moine~
+
+@4019 = ~Tatouage de druide~
+@4020 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +1
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 4
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Uniquement utilisable par :
+Druide~
+
+@4021 = ~Tatouage d'Archidruide~
+@4022 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Sagesse : +3
+Permet de mémoriser un sort supplémentaire des niveaux 1 à 7
+Permet de mémoriser un sort supplémentaire de niveau 5
+Permet de lancer Appel des créatures des bois une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de classe.
+
+Uniquement utilisable par :
+Druide~
+
+@4023 = ~Tatouage du parangon de vertu~
+@4024 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Force : +1
+Sagesse : +1
+Charisme : +2
+Aide : +1
+Bénédiction : +1
+Chant : +1
+
+Nécessite : 15 en sagesse
+
+Uniquement utilisable par :
+Paladin  loyal bon~
+
+@601 = ~Tatouage d'accélération~
+@602 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Hâte une fois par jour.~
+
+@603 = ~Tatouage de la vermine~
+@604 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Convocation d'insectes une fois par jour.~
+
+@605 = ~Tatouage du maître des lames~
+@606 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine tannée. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+Permet de lancer Coups mortels de Tenser une fois par jour.~
+@6061 = ~Coups mortels de Tenser~
+@6062 = ~Coups mortels de Tenser (Altération) 
+Niveau : 3
+Portée : 0
+Durée : 1D4+4 rounds
+Temps d'incantation : 1
+Zone d'effet : le lanceur de sorts
+Jet de sauvegarde : aucun
+
+Ce sort améliore les capacités martiales du lanceur du sort : pendant toutes la durée du sort, toutes ses attaques infligent le maximum de dégâts.~
+
+@607 = ~Tatouage du maître des ossements~
+@608 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Immobilisation des morts-vivants une fois par jour.~
+
+@609 = ~Tatouage des lianes~
+@6010 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Lianes tranchantes (Enchevêtrement + dégâts) deux fois par jour~
+@60101 = ~Lianes tranchantes~
+@60102 = ~Lianes tranchantes (Altération) 
+Niveau : 2
+Sphère : végétale
+Portée : champ visuelle du lancer
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : rayon de 12 mètres
+Jet de sauvegarde : annule
+
+Avec ce sort, le jeteur de sorts peut provoquer l'emprisonnement des créatures situées dans la zone d'effet par les plantes qui s'y trouvent. Les mauvaises herbes, les buissons, ainsi que les arbres s'enroulent, s'entortillent et s'entrelacent autour des créatures, les retenant solidement et les griffant avec des épines pendant la durée du sort. Chaque round, les créatures dans la zone peuvent tenter un jet de sauvegarde contre les sorts pour éviter d'être enchevêtré. Toutes les créatures victimes d'un enchevêtrement peuvent continuer d'attaquer mais elles subissent une pénalité de -2 à leur classe d'armure et subissent 1D2 points de dégâts tranchants.~
+
+@6011 = ~Tatouage de la langue d'argent~
+@6012 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
+
+PARAMETRES :
+
+Charisme : +2
+Permet de lancer Amitié une fois par jour.~
+
+@6013 = ~Tatouage du verrou brisé~
+@6014 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Déverrouillage deux fois par jour~
+
+@6015 = ~Tatouage des sans-repos~
+@6016 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Animation des morts une fois par jour.
+
+Spécial : ne peut pas être combiné avec le tatouage de la vie après la mort~
+
+@6017 = ~Tatouage de la vie après la mort~
+@6018 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Rappel à la vie des morts une fois par jour.
+
+Spécial : ne peut pas être combiné avec le tatouage des sans-repos~
+
+@6019 = ~Tatouage du voyageur~
+@6020 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Vitesse de marche : +2
+Permet de lancer Portail dimensionnel une fois par jour.~
+
+@701 = ~Tatouage de la Gaste Grise~
+@702 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Immunité contre les sorts utilisant des couleurs
+Permet de lancer Émotion : Désespoir deux fois par jour (étourdit, jet de sauvegarde à -4)
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70921 = ~Émotion : désespoir~
+@70922 = ~Émotion : désespoir (Enchantement/Charme)
+
+Niveau : 4
+Portée : champ de vision du lanceur
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : 4,5 mètres de rayon
+Jet de sauvegarde : annule
+
+Ce sort fait naître un grand désespoir chez toutes les créatures comprises dans la zone d'effet. Un jet de sauvegarde contre le sorts à -4 est autorisé pour éviter l'effet, et les créatures qui le ratent  ne peuvent rien faire pendant toute la durée de l'enchantement.~
+
+@703 = ~Tatouage des Abysses~
+@704 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Convocation d'un Fiélon une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@705 = ~Tatouage des Carcères~
+@706 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Emprisonnement (jet de sauvegarde contre les sorts à -4 et résistance à la magie autorisés) une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@7061 = ~Emprisonnement (Abjuration)
+Niveau : 9
+Portée : Contact
+Durée : Permanente
+Temps d'incantation : 1
+Zone d'effet : 1 créature
+Jet de sauvegarde : Annule
+
+Lorsqu'un sort d'Emprisonnement est lancé et la victime est touchée, la victime est prisonnière d'un état comateux à l'intérieur d'une petite sphère située loin sous la surface de la terre. La créature reste ainsi suspendue entre la vie et la mort jusqu'à ce que le sort inverse, Liberté, soit lancé à l'endroit où elle s'est faite capturer. Sans cela, elle restera là aussi longtemps qu'existera le monde, un destin plutôt affreux. Une dissipation magique ne libère pas les victimes de ce sort et elle ne peut se protéger de ce sort qu'en réussissant un jet de sauvegarde contre les sorts à -4.~
+
+@707 = ~Tatouage de Baator~
+@708 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Portail une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@709 = ~Tatouage du Mont Céleste~
+@7010 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Convocation de Déva une fois par jour
+
+Spécial : ne peut pas être combiné avec un autre tatouage de plan extérieur.
+
+Uniquement utilisable par :
+Personnage loyal bon~
+
+@7011 = ~Tatouage de la Géhenne~
+@7012 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Pluie volcanique (Pluie de feu/froid/acide, 9D6, 4 rounds) une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70121 = ~Pluie volcanique ~
+@70122 = ~Pluie volcanique  (Evocation)
+Niveau : 9
+Portée : 40 m
+Durée : 4 rounds
+Temps d'incantation : 1
+Zone d'effet : rayon de 4,5 mètres
+Jet de sauvegarde : aucun
+
+De nombreux scories bombes volcaniques tombent dans zone désignée. Toute personne dans cette zone, ami ou ennemi, subit 4D6 points de dégâts de feu,3D6 points de dégâts de froid et 2D6 points de dégâts d'acide. Le magicien est encouragé à prendre toutes ses précautions pour l'utilisation de ce sort.~
+
+@7013 = ~Tatouage du Pandémonium~
+@7014 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Chaos deux fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@7015 = ~Tatouage de Mécanus~
+@7016 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Vision véritable et Ordres chaotiques (personnel) une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@7017 = ~Tatouage de la Bytopie~
+@7018 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Protection contre le mal sur 4,5m et Conjuration d'animaux une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@7019 = ~Tatouage du plan élémentaire de la terre~
+@7020 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Convocation d'élémental de terre et Peau de pierre une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@7021 = ~Tatouage du plan d’énergie positive~
+@7022 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Régénération et Protection contre le plan négatif (2 tours) une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@7023 = ~Tatouage de l'Arborée~
+@7024 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet d’utiliser la Rage de barbare deux fois par jour.
+Permet de lancer Appel des créatures des bois une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+
+@7025 = ~Tatouage du plan élémentaire de l'air~
+@7026 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Convocation d'archomental d'air et Chaîne d'éclairs une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70261 = ~Invocation d'archomental d'air~
+@70262 = ~Invocation d'archomental d'air (Convocation)
+Niveau : 8
+Portée : champ de vision
+Durée : 2 tours
+Temps d'incantation : 1
+Zone d'effet : spéciale
+Jet de sauvegarde : non
+
+Le lanceur de sorts peut appeler depuis le Plan élémentaire de l'air le prince de l'air, Chan. Celui-ci reste pendant 2 tours à la disposition de son invocateur.~
+
+@7027 = ~Tatouage des Limbes~
+@7028 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Si l'utilisateur est entropiste : Jet sur la table des hiatus : +20
+Permet de lancer Lame fantôme et Zone entropique une fois par jour chacun
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70281 = ~Zone entropique~
+@70282 = ~Zone entropique (Conjuration/Convocation)
+Niveau : 7
+Portée : champ de vision
+Durée : 1 tour
+Temps d'incantation : 1
+Zone d'effet : 4,5 mètres de rayon
+Jet de sauvegarde : non
+
+Ce sort crée à l'endroit désigné par le mage un mouvement chaotique dans la toile, qui perturbe l'aura de tous les lanceurs de sorts présents (lanceur de ce sort excepté) : chaque fois qu'ils tentent de lancer un sort, cela crée un hiatus entropique. Il n'y a pas de jet de sauvegarde possible contre ce sort, mais la résistance à la magie permet d'éviter ses effets.~70
+
+@7029 = ~Tatouage de l'Achéron~
+@7030 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant un pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Convocation de Troupe d'orque d'élite et Transformation de la chair en pierre une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70301 = ~Convocation de Troupe d'orque d'élite~
+@70302 = ~Convocation de Troupe d'orque d'élite (Conjuration/Convocation) 
+Niveau : 9
+Portée : 40 mètres
+Durée : 2 tours
+Temps d'incantation : 1 
+Zone d'effet : spéciale 
+Jet de sauvegarde : aucun 
+
+Ce sort convoque depuis l'Achéron une troupe de 1D10+8 orques d’élite. Les orques obéiront au lanceur de sorts dans la mesure de leur capacité, jusqu'à leur mort ou la fin du sort.~
+
+@7031 = ~Tatouage du plan quasi-élémentaire de la radiance~
+@7032 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Vaporisation prismatique (jet de sauvegarde à -4) et Rayon de soleil une fois par jour chacun.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70322 = ~Vaporisation prismatique (Convocation/Conjuration)
+Niveau : 8
+Portée : 20 m
+Durée : Instantanée
+Temps d'incantation : 1
+Zone d'effet : cône long de 25 m
+Jet de Sauvegarde : Spécial
+
+Ce sort crée 7 rayons de lumière colorée à partir de sa main. Chaque rayon a une couleur et un effet déterminé. Toute créature de moins de 8 Dés de vie touchée par un rayon est aveuglée pour 5 rounds, sans compter les autres effets. Toute créature dans la zone d'effet sera touchée par un ou deux rayons.
+
+Rouge	- 20 points de dégâts, Jet de Sauvegarde contre les sorts pour la moitié
+Orange	- 40 points de dégâts, Jet de Sauvegarde contre les sorts pour la moitié
+Jaune	- 80 points de dégâts, Jet de Sauvegarde contre les sorts pour la moitié
+Vert	- Jet de Sauvegarde contre les poisons pour 20 points de dégâts, sinon, mort
+Bleu	- Jet de Sauvegarde contre pétrification ou transformation en pierre
+Indigo	- Jet de Sauvegarde contre baguettes ou débilité mentale
+Violet	- Jet de Sauvegarde contre sorts ou désintégration
+
+Tous les jets de sauvegarde contre cette version planaire de ce sort se font à -4.~
+@7033 = ~Tatouage de l'Outreterre~
+@7034 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Protection des anneaux  (bloque les sorts de niveau 7 à 9) une fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70341 = ~Protection des anneaux~
+@70342 = ~Protection des anneaux (Abjuration)
+Niveau : 10
+Portée : 0
+Durée : 15 rounds
+Temps d'incantation : 1
+Zone d'effet : le jeteur de sort
+Jet de sauvegarde : Aucun
+
+Ce sort crée une sphère magique immobile autour du lanceur qui le rend invulnérable à tous les sorts de 9ème, 8ème, et 7ème niveau (i.e. : les zones d'effet de ces sorts ne pénètrent pas dans celle de la sphère). Les sorts de sixième niveau et au-dessous ne sont pas affectés par le globe. Il est possible de se débarrasser d'une telle sphère grâce à une dissipation magique ou un sort de Magie perforante.~
+
+@7035 = ~Tatouage du plan quasi-élémentaire du vide~
+@7036 = ~C'est une rune magique inscrite sur ce qui semble être de la peau humaine. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+PARAMETRES :
+
+Permet de lancer Désintégration (jet de sauvegarde à -4) deux fois par jour.
+
+Spécial : Ce tatouage est exclusif : l'utiliser empêche de profiter des effets d'un autre tatouage de plan extérieur.~
+@70362 = ~Désintégration (Altération)
+Niveau : 7
+Portée : Champ de vision
+Durée : Instantanée
+Temps d'incantation : 1
+Zone d'effet : Cible
+Jet de Sauvegarde : Annule
+
+Un rayon vert est dirigé vers la cible. Au contact, celle-ci doit réussir un jet de Sauvegarde contre les sorts à -4 ou être transformé en innombrables particules de vide. Cette destruction est immédiate et irréversible. Elle détruira également tout ou partie de l'équipement de la cible.~

@@ -1,0 +1,10 @@
+13/11/2023 : V1
+mise en ligne
+
+ : V2
+ Correction :
+ le Tatouage pour Moine ne faisait rien
+ Modification :
+ Suppression de quelques tatoos, ajouts et révisions de pleins d'autres.
+ Modification de quelques prix.
+ Mise en place des exclusivités "plans extérieurs" et "créatures".

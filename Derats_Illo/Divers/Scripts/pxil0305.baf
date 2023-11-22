@@ -1,0 +1,8 @@
+IF
+	Global("Px_illo","GLOBAL",0)
+	AreaCheck("AR0305")
+THEN
+	RESPONSE #100
+		SetGlobal("Px_illo","GLOBAL",1)
+		CreateCreature("pxillo",[855.613],15)
+END

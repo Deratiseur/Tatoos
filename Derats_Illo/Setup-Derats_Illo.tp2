@@ -1,0 +1,270 @@
+BACKUP ~Derats_Illo/Backup~
+AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
+VERSION ~v2~
+
+AUTO_TRA ~Derats_Illo/Languages/%s~ /////%s~
+
+ALWAYS
+	ACTION_DEFINE_ARRAY px_noconvert BEGIN END
+	ACTION_DEFINE_ARRAY px_reload BEGIN
+	Setup.tra
+	Illodlg.tra
+	END
+	LAF HANDLE_CHARSETS
+		INT_VAR
+		infer_charset = 1
+		STR_VAR
+		tra_path = EVAL ~%MOD_FOLDER%/Languages~
+		noconvert_array = px_noconvert
+		reload_array = px_reload
+	END
+END
+
+LANGUAGE ~Francais~	~French~
+	~Derats_Illo/Languages/French/Setup.tra~
+	~Derats_Illo/Languages/French/Illodlg.tra~
+
+	LANGUAGE ~English~	~English~
+	~Derats_Illo/Languages/English/Setup.tra~
+	~Derats_Illo/Languages/English/Illodlg.tra~
+
+BEGIN @0
+REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE EET IWDEE~ @0009
+
+COMPILE ~Derats_Illo/Divers/pxillo.d~
+COPY	~Derats_Illo/Divers/pxillo.cre~			~override~	SAY NAME1 @0	SAY NAME2 @0
+COPY	~Derats_Illo/Divers/pxillo.sto~			~override~	SAY 0xc @0
+INCLUDE ~Derats_Illo/Divers/Scripts/gw_functions.tpa~
+ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
+EXTEND_TOP ~AR0305.BCS~	~Derats_Illo/Divers/Scripts/pxil0305.baf~
+COPY_EXISTING	~ar0305.are~					~override~	WRITE_ASCII 0x94 ~ar0305~ #8
+END
+ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
+EXTEND_TOP ~OHBHUB.BCS~	~Derats_Illo/Divers/Scripts/pxil8100.baf~
+COPY_EXISTING	~pxillo.sto~					~override~	WRITE_BYTE 0x14 118
+END
+ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
+EXTEND_TOP ~AR2100.BCS~	~Derats_Illo/Divers/Scripts/pxil2100.baf~
+COPY_EXISTING	~pxillo.sto~					~override~	WRITE_BYTE 0x14 100
+END
+
+
+COPY	~Derats_Illo/Bams~						~override~
+		~Derats_Illo/Copy~						~override~
+		
+//Boosts généraux (+1 ou +2)
+COPY	~Derats_Illo/tatoos/pxilca1.itm~		~override~	SAY NAME2 @101	SAY DESC @102
+COPY_EXISTING	~pxilca1.itm~		~override/pxilca2.itm~	SAY NAME2 @103	SAY DESC @104	WRITE_ASCII 0xbe ~pxilca2~ #8	WRITE_ASCII 0xee ~pxilca1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilca1.spl~		~override/pxilprc1.spl~	WRITE_BYTE 0x9a 54
+COPY_EXISTING	~pxilca1.spl~		~override/pxilvie1.spl~	WRITE_BYTE 0x9a 18	WRITE_BYTE 0x9e 3
+COPY_EXISTING	~pxilca1.spl~		~override/pxildeg1.spl~	WRITE_BYTE 0x9a 73
+COPY_EXISTING	~pxilca1.spl~		~override/pxilfor1.spl~	WRITE_BYTE 0x9a 44	WRITE_BYTE 0xa6 1
+COPY_EXISTING	~pxilfor1.spl~		~override/pxildex1.spl~	WRITE_BYTE 0x9a 15
+COPY_EXISTING	~pxilfor1.spl~		~override/pxilcon1.spl~	WRITE_BYTE 0x9a 10
+COPY_EXISTING	~pxilfor1.spl~		~override/pxilsag1.spl~	WRITE_BYTE 0x9a 49
+COPY_EXISTING	~pxilfor1.spl~		~override/pxilint1.spl~	WRITE_BYTE 0x9a 19
+COPY_EXISTING	~pxilfor1.spl~		~override/pxilcha1.spl~	WRITE_BYTE 0x9a 6
+COPY_EXISTING	~pxilca1.itm~		~override/pxilprc1.itm~	SAY NAME2 @105	SAY DESC @106	WRITE_ASCII 0xbe ~pxilprc1~ #8	WRITE_ASCII 0xee ~pxilprc2~ #8	WRITE_ASCII 0x3a ~pxiltac0~ #8	WRITE_ASCII 0x76 ~pxiltac0~ #8
+COPY_EXISTING	~pxilprc1.itm~		~override/pxilprc2.itm~	SAY NAME2 @107	SAY DESC @108	WRITE_ASCII 0xbe ~pxilprc2~ #8	WRITE_ASCII 0xee ~pxilprc1~ #8	WRITE_LONG 0x34 1000000
+COPY_EXISTING	~pxilca1.itm~		~override/pxiljds1.itm~	SAY NAME2 @109	SAY DESC @1010	WRITE_ASCII 0xbe ~pxiljds1~ #8	WRITE_ASCII 0xee ~pxiljds2~ #8	WRITE_ASCII 0x3a ~pxiljds~ #8	WRITE_ASCII 0x76 ~pxiljds~ #8
+COPY_EXISTING	~pxiljds1.itm~		~override/pxiljds2.itm~	SAY NAME2 @1011	SAY DESC @1012	WRITE_ASCII 0xbe ~pxiljds2~ #8	WRITE_ASCII 0xee ~pxiljds1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxiljds1.spl~		~override/pxiljds2.spl~	FOR (a=0 ; a< 5 ; a+=1) BEGIN	WRITE_BYTE  0x9e+a*0x30 2	END
+COPY_EXISTING	~pxilca1.itm~		~override/pxilvie1.itm~	SAY NAME2 @1013	SAY DESC @1014	WRITE_ASCII 0xbe ~pxilvie1~ #8	WRITE_ASCII 0xee ~pxilvie2~ #8	WRITE_ASCII 0x3a ~pxilendu~ #8	WRITE_ASCII 0x76 ~pxilendu~ #8
+COPY_EXISTING	~pxilvie1.itm~		~override/pxilvie2.itm~	SAY NAME2 @1015	SAY DESC @1016	WRITE_ASCII 0xbe ~pxilvie2~ #8	WRITE_ASCII 0xee ~pxilvie1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilvie1.spl~		~override/pxilvie2.spl~	WRITE_BYTE 0x9e 9
+COPY_EXISTING	~pxilca1.itm~		~override/pxildeg1.itm~	SAY NAME2 @1017	SAY DESC @1018	WRITE_ASCII 0xbe ~pxilprc1~ #8	WRITE_ASCII 0xee ~pxilprc2~ #8	WRITE_ASCII 0x3a ~pxildega~ #8	WRITE_ASCII 0x76 ~pxildega~ #8
+COPY_EXISTING	~pxildeg1.itm~		~override/pxildeg2.itm~	SAY NAME2 @1019	SAY DESC @1020	WRITE_ASCII 0xbe ~pxildeg2~ #8	WRITE_ASCII 0xee ~pxildeg1~ #8	WRITE_LONG 0x34 2000000
+COPY	~Derats_Illo/tatoos/pxiltroi.itm~		~override~	SAY NAME2 @1021	SAY DESC @1022
+COPY	~Derats_Illo/tatoos/pxilsour.itm~		~override~	SAY NAME2 @1023	SAY DESC @1024
+COPY_EXISTING	~pxilsour.itm~		~override/pxilluck.itm~	SAY NAME2 @1025	SAY DESC @1026	WRITE_ASCII 0x3a ~pxilluck~ #8	WRITE_ASCII 0x76 ~pxilluck~ #8	WRITE_BYTE 0xaa 22		WRITE_SHORT 0x34 50000
+
+//Boosts de caractéristiques (+1 ou +2)
+COPY_EXISTING	~pxilca1.itm~		~override/pxilfor1.itm~	SAY NAME2 @201	SAY DESC @202	WRITE_ASCII 0xbe ~pxilfor1~ #8	WRITE_ASCII 0xee ~pxilfor2~ #8	WRITE_ASCII 0x3a ~pxilfor~ #8	WRITE_ASCII 0x76 ~pxilfor~ #8
+COPY_EXISTING	~pxilfor1.itm~		~override/pxilfor2.itm~	SAY NAME2 @203	SAY DESC @204	WRITE_ASCII 0xbe ~pxilfor2~ #8	WRITE_ASCII 0xee ~pxilfor1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilca1.itm~		~override/pxildex1.itm~	SAY NAME2 @205	SAY DESC @206	WRITE_ASCII 0xbe ~pxildex1~ #8	WRITE_ASCII 0xee ~pxildex2~ #8	WRITE_ASCII 0x3a ~pxildex~ #8	WRITE_ASCII 0x76 ~pxildex~ #8
+COPY_EXISTING	~pxildex1.itm~		~override/pxildex2.itm~	SAY NAME2 @207	SAY DESC @208	WRITE_ASCII 0xbe ~pxildex2~ #8	WRITE_ASCII 0xee ~pxildex1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilca1.itm~		~override/pxilcon1.itm~	SAY NAME2 @209	SAY DESC @2010	WRITE_ASCII 0xbe ~pxilcon1~ #8	WRITE_ASCII 0xee ~pxilcon2~ #8	WRITE_ASCII 0x3a ~pxilcon~ #8	WRITE_ASCII 0x76 ~pxilcon~ #8
+COPY_EXISTING	~pxilcon1.itm~		~override/pxilcon2.itm~	SAY NAME2 @2011	SAY DESC @2012	WRITE_ASCII 0xbe ~pxilcon2~ #8	WRITE_ASCII 0xee ~pxilcon1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilca1.itm~		~override/pxilsag1.itm~	SAY NAME2 @2013	SAY DESC @2014	WRITE_ASCII 0xbe ~pxilsag1~ #8	WRITE_ASCII 0xee ~pxilsag2~ #8	WRITE_ASCII 0x3a ~pxilsag~ #8	WRITE_ASCII 0x76 ~pxilsag~ #8
+COPY_EXISTING	~pxilsag1.itm~		~override/pxilsag2.itm~	SAY NAME2 @2015	SAY DESC @2016	WRITE_ASCII 0xbe ~pxilsag2~ #8	WRITE_ASCII 0xee ~pxilsag1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilca1.itm~		~override/pxilint1.itm~	SAY NAME2 @2017	SAY DESC @2018	WRITE_ASCII 0xbe ~pxilint1~ #8	WRITE_ASCII 0xee ~pxilint2~ #8	WRITE_ASCII 0x3a ~pxilint~ #8	WRITE_ASCII 0x76 ~pxilint~ #8
+COPY_EXISTING	~pxilint1.itm~		~override/pxilint2.itm~	SAY NAME2 @2019	SAY DESC @2020	WRITE_ASCII 0xbe ~pxilint2~ #8	WRITE_ASCII 0xee ~pxilint1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilca1.itm~		~override/pxilcha1.itm~	SAY NAME2 @2021	SAY DESC @2022	WRITE_ASCII 0xbe ~pxilcha1~ #8	WRITE_ASCII 0xee ~pxilcha2~ #8	WRITE_ASCII 0x3a ~pxilcha~ #8	WRITE_ASCII 0x76 ~pxilcha~ #8
+COPY_EXISTING	~pxilcha1.itm~		~override/pxilcha2.itm~	SAY NAME2 @2023	SAY DESC @2024	WRITE_ASCII 0xbe ~pxilcha2~ #8	WRITE_ASCII 0xee ~pxilcha1~ #8	WRITE_SHORT 0x34 50000
+COPY_EXISTING	~pxilca1.spl~		~override/pxilca2.spl~
+				~pxilfor1.spl~		~override/pxilfor2.spl~
+				~pxildex1.spl~		~override/pxildex2.spl~
+				~pxilcon1.spl~		~override/pxilcon2.spl~
+				~pxilsag1.spl~		~override/pxilsag2.spl~
+				~pxilint1.spl~		~override/pxilint2.spl~
+				~pxilcha1.spl~		~override/pxilcha2.spl~	WRITE_BYTE 0x9e 2
+COPY	~Derats_Illo/tatoos/pxiltran.itm~		~override~	SAY NAME2 @2025	SAY DESC @2026
+
+//Boost associé à une créature (un seul, aucun autre)
+COPY	~Derats_Illo/tatoos/pxilsucu.itm~		~override~	SAY NAME2 @301	SAY DESC @302
+COPY	~Derats_Illo/sorts/pxilsuc1.itm~		~override~	SAY NAME2 @3021
+COPY	~Derats_Illo/sorts/pxilsucx.spl~		~override~	SAY NAME2 @3021	SAY UNIDENTIFIED_DESC @3022
+COPY_EXISTING	~pxilsucu.itm~		~override/pxilmino.itm~	SAY NAME2 @303	SAY DESC @304	WRITE_ASCII 0xbe ~pxilmino~ #8	WRITE_ASCII 0xee ~pxilsucu~ #8	WRITE_ASCII 0x3a ~pxilmino~ #8	WRITE_ASCII 0x76 ~pxilmino~ #8	WRITE_LONG 0x34 180000
+COPY_EXISTING	~pxilsucu.itm~		~override/pxilnymp.itm~	SAY NAME2 @305	SAY DESC @306	WRITE_ASCII 0xbe ~pxilnymp~ #8	WRITE_ASCII 0x11e ~pxilsucu~ #8	WRITE_ASCII 0x3a ~pxilnymp~ #8	WRITE_ASCII 0x76 ~pxilnymp~ #8	WRITE_LONG 0x34 200000
+COPY_EXISTING	~pxilmino.spl~		~override/pxilnymp.spl~	WRITE_BYTE 0x9a 6	WRITE_BYTE 0x9e 2	WRITE_ASCII 0xde ~pxilnymx~ #8
+COPY_EXISTING	~pxilsucu.itm~		~override/pxilmedu.itm~	SAY NAME2 @307	SAY DESC @308	WRITE_ASCII 0xbe ~pxilmedu~ #8	WRITE_ASCII 0x14e ~pxilsucu~ #8	WRITE_ASCII 0x3a ~pxilmedu~ #8	WRITE_ASCII 0x76 ~pxilmedu~ #8	WRITE_LONG 0x34 200000
+COPY_EXISTING	~pxilsucu.itm~		~override/pxiltrol.itm~	SAY NAME2 @309	SAY DESC @3010	WRITE_ASCII 0xbe ~pxiltrol~ #8	WRITE_ASCII 0x17e ~pxilsucu~ #8	WRITE_ASCII 0x3a ~pxiltrol~ #8	WRITE_ASCII 0x76 ~pxiltrol~ #8	WRITE_LONG 0x34 200000
+COPY_EXISTING	~pxilsucu.itm~		~override/pxilmodr.itm~	SAY NAME2 @3011	SAY DESC @3012	WRITE_ASCII 0xbe ~pxilmodr~ #8	WRITE_ASCII 0x1ae ~pxilsucu~ #8	WRITE_ASCII 0x3a ~pxilmodr~ #8	WRITE_ASCII 0x76 ~pxilmodr~ #8	WRITE_LONG 0x34 240000
+COPY	~Derats_Illo/tatoos/pxildemo.itm~		~override~	SAY NAME2 @3013	SAY DESC @3014
+COPY_EXISTING	~pxilsucu.itm~		~override/pxildemo.itm~	SAY NAME2 @3013	SAY DESC @3014	WRITE_ASCII 0xbe ~pxildemo~ #8	WRITE_ASCII 0x20e ~pxilsucu~ #8	WRITE_ASCII 0x3a ~pxildemo~ #8	WRITE_ASCII 0x76 ~pxildemo~ #8	WRITE_LONG 0x34 260000
+COPY_EXISTING	~pxilsucu.itm~		~override/pxilcerv.itm~	SAY NAME2 @3015	SAY DESC @3016	WRITE_ASCII 0xbe ~pxilcerv~ #8	WRITE_ASCII 0x1de ~pxilsucu~ #8	WRITE_ASCII 0x3a ~pxilcerv~ #8	WRITE_ASCII 0x76 ~pxilcerv~ #8	WRITE_LONG 0x34 240000
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilcerv.spl~	WRITE_ASCII 0xae ~pxilcrv1~ #8	WRITE_ASCII 0xde ~pxilcrv2~ #8
+
+//Boost par classe (un seul, aucun autre, exception transcendance)
+COPY	~Derats_Illo/tatoos/pxilger1.itm~		~override~	SAY NAME2 @401	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@402" END
+COPY_EXISTING	~pxilger1.itm~		~override/pxilger2.itm~	SAY NAME2 @403	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@404" END	WRITE_ASCII 0x1be ~pxilger2~ #8	WRITE_ASCII 0xee ~pxilger1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilger1.spl~		~override/pxilger2.spl~	WRITE_BYTE 0x9e 3	WRITE_BYTE 0xce 3	WRITE_BYTE 0xfe 9
+COPY	~Derats_Illo/tatoos/pxilmag1.itm~		~override~	SAY NAME2 @405	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@406" END
+COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@408" END	WRITE_ASCII 0x1be ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
+COPY	~Derats_Illo/tatoos/pxilvol1.itm~		~override~	SAY NAME2 @409	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4010" END
+COPY_EXISTING	~pxilvol1.itm~		~override/pxilvol2.itm~	SAY NAME2 @4011	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4012" END	WRITE_ASCII 0x1be ~pxilvol2~ #8	WRITE_ASCII 0xee ~pxilvol1~ #8	WRITE_LONG 0x34 300000
+ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN
+COPY	~Derats_Illo/tatoos/pxilclr1.itm~		~override~	SAY NAME2 @4013	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40141" END
+COPY_EXISTING	~pxilclr1.itm~		~override/pxilclr2.itm~	SAY NAME2 @4015	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40161" END	WRITE_ASCII 0x1be ~pxilclr2~ #8	WRITE_ASCII 0xee ~pxilclr1~ #8	WRITE_LONG 0x34 300000
+COPY	~Derats_Illo/tatoos/pxilmag1.itm~		~override~	SAY NAME2 @405	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@406" END
+COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@408" END	WRITE_ASCII 0x1be ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
+COPY	~Derats_Illo/sorts/pxilclr1.spl~		~override~
+		~Derats_Illo/sorts/pxilclr2.spl~		~override~
+COPY	~Derats_Illo/sorts/pxilmag1.spl~		~override~
+COPY_EXISTING	~pxilmag1.spl~		~override/pxilmag2.spl~	WRITE_BYTE 0x9e 3	WRITE_LONG 0xd2 511	WRITE_BYTE 0xfe 3
+END
+ACTION_IF GAME_IS ~BGEE BG2EE EET IWDEE~ THEN BEGIN
+COPY	~Derats_Illo/tatoos/pxilclr1.itm~		~override~	SAY NAME2 @4013	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4014" END
+COPY_EXISTING	~pxilclr1.itm~		~override/pxilclr2.itm~	SAY NAME2 @4015	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4016" END	WRITE_ASCII 0x1be ~pxilclr2~ #8	WRITE_ASCII 0xee ~pxilclr1~ #8	WRITE_LONG 0x34 300000
+COPY	~Derats_Illo/Divers/EE/pxilclr1.spl~	~override~
+		~Derats_Illo/Divers/EE/pxilclr2.spl~	~override~
+		~Derats_Illo/Divers/EE/pxilmag1.spl~	~override~
+COPY	~Derats_Illo/tatoos/pxilmag1.itm~		~override~	SAY NAME2 @405	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4061" END
+COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4081" END	WRITE_ASCII 0x1be ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilmag1.spl~		~override/pxilmag2.spl~	WRITE_BYTE 0x9e 3	WRITE_LONG 0xd2 511	WRITE_BYTE 0xfe 30
+END
+COPY	~Derats_Illo/tatoos/pxilmoin.itm~		~override~	SAY NAME2 @4017	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4018" END
+COPY	~Derats_Illo/tatoos/pxildru1.itm~		~override~	SAY NAME2 @4019	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4020" END
+COPY_EXISTING	~pxildru1.itm~		~override/pxildru2.itm~	SAY NAME2 @4021	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4022" END	WRITE_ASCII 0x1be ~pxildru2~ #8	WRITE_ASCII 0xee ~pxildru1~ #8	WRITE_LONG 0x34 300000
+COPY	~Derats_Illo/sorts/pxilclr1.spl~	~override/pxildru1.spl~
+COPY	~Derats_Illo/sorts/pxilclr2.spl~	~override/pxildru2.spl~	WRITE_ASCII 0x13e ~pxildrux~ #8
+COPY	~Derats_Illo/tatoos/pxilpala.itm~		~override~	SAY NAME2 @4023	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4024" END
+
+//capacité par jour (libre)
+COPY	~Derats_Illo/tatoos/pxilacce.itm~		~override~	SAY NAME2 @601	SAY DESC @602
+COPY_EXISTING	~pxilacce.itm~		~override/pxilverm.itm~	SAY NAME2 @603	SAY DESC @604	WRITE_ASCII 0xbe ~pxilverm~ #8	WRITE_ASCII 0x3a ~pxilverm~ #8	WRITE_ASCII 0x76 ~pxilverm~ #8
+COPY_EXISTING	~pxilacce.itm~		~override/pxillame.itm~	SAY NAME2 @605	SAY DESC @606	WRITE_ASCII 0xbe ~pxillame~ #8	WRITE_ASCII 0x3a ~pxillame~ #8	WRITE_ASCII 0x76 ~pxillame~ #8
+COPY	~Derats_Illo/sorts/pxillame.spl~		~override~	SAY NAME1 @6061	SAY UNIDENTIFIED_DESC @6062
+COPY_EXISTING	~pxilacce.itm~		~override/pxilosse.itm~	SAY NAME2 @607	SAY DESC @608	WRITE_ASCII 0xbe ~pxilosse~ #8	WRITE_ASCII 0x3a ~pxilosse~ #8	WRITE_ASCII 0x76 ~pxilosse~ #8
+COPY	~Derats_Illo/tatoos/pxillian.itm~		~override~	SAY NAME2 @609	SAY DESC @6010
+COPY	~Derats_Illo/sorts/pxillian.spl~		~override~	SAY NAME1 @60101	SAY UNIDENTIFIED_DESC @60102
+COPY	~Derats_Illo/tatoos/pxillang.itm~		~override~	SAY NAME2 @6011	SAY DESC @6012
+COPY_EXISTING	~pxillian.itm~		~override/pxilverr.itm~	SAY NAME2 @6013	SAY DESC @6014	WRITE_ASCII 0xbe ~pxilverr~ #8	WRITE_ASCII 0xee ~pxilverr~ #8	WRITE_ASCII 0x3a ~pxilverr~ #8	WRITE_ASCII 0x76 ~pxilverr~ #8	WRITE_LONG 0x34 80000
+COPY_EXISTING	~pxilca1.itm~		~override/pxilsans.itm~	SAY NAME2 @6015	SAY DESC @6016	WRITE_ASCII 0xbe ~pxilsans~ #8	WRITE_ASCII 0xee ~pxilviea~ #8	WRITE_ASCII 0x3a ~pxilviea~ #8	WRITE_ASCII 0x76 ~pxilviea~ #8	WRITE_LONG 0x34 100000
+COPY_EXISTING	~pxilsans.itm~		~override/pxilviea.itm~	SAY NAME2 @6017	SAY DESC @6018	WRITE_ASCII 0xbe ~pxilviea~ #8	WRITE_ASCII 0xee ~pxilsans~ #8	WRITE_LONG 0x34 100000
+COPY_EXISTING	~pxilsans.spl~		~override/pxilviea.spl~	WRITE_ASCII 0xae ~pxilviex~ #8
+COPY	~Derats_Illo/tatoos/pxilvoya.itm~		~override~	SAY NAME2 @6019	SAY DESC @6020
+
+//Boost associé à un plan extérieur (un seul, aucun autre)
+COPY	~Derats_Illo/tatoos/pxilgast.itm~		~override~	SAY NAME2 @701	SAY DESC @702
+COPY	~Derats_Illo/sorts/pxilgasx.spl~		~override~	SAY NAME1 @70921	SAY UNIDENTIFIED_DESC @70922
+COPY_EXISTING	~pxilgast.itm~		~override/pxilabys.itm~	SAY NAME2 @703	SAY DESC @704	WRITE_ASCII 0xbe ~pxilabys~ #8	WRITE_ASCII 0xee ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxilabys~ #8	WRITE_ASCII 0x76 ~pxilabys~ #8	WRITE_LONG 0x34 160000
+COPY_EXISTING	~pxilsans.spl~		~override/pxilabys.spl~	WRITE_ASCII 0xae ~pxilabyx~ #8
+COPY_EXISTING	~pxilgast.itm~		~override/pxilcarc.itm~	SAY NAME2 @705	SAY DESC @706	WRITE_ASCII 0xbe ~pxilcarc~ #8	WRITE_ASCII 0x11e ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxilcarc~ #8	WRITE_ASCII 0x76 ~pxilcarc~ #8	WRITE_LONG 0x34 180000
+COPY_EXISTING	~pxilsans.spl~		~override/pxilcarc.spl~	WRITE_ASCII 0xae ~pxilcarx~ #8
+COPY	~Derats_Illo/sorts/pxilcarx.spl~		~override~	SAY UNIDENTIFIED_DESC @7061
+COPY_EXISTING	~pxilcarc.itm~		~override/pxilbaat.itm~	SAY NAME2 @707	SAY DESC @708	WRITE_ASCII 0xbe ~pxilbaat~ #8	WRITE_ASCII 0x14e ~pxilcarc~ #8	WRITE_ASCII 0x3a ~pxilbaat~ #8	WRITE_ASCII 0x76 ~pxilbaat~ #8
+COPY_EXISTING	~pxilsans.spl~		~override/pxilbaat.spl~	WRITE_ASCII 0xae ~pxilbaax~ #8
+COPY	~Derats_Illo/tatoos/pxilmont.itm~		~override~	SAY NAME2 @709	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@7010" END
+COPY_EXISTING	~pxilsans.spl~		~override/pxilmont.spl~	WRITE_ASCII 0xae ~pxilmonx~ #8
+COPY_EXISTING	~pxilcarc.itm~		~override/pxilgehe.itm~	SAY NAME2 @7011	SAY DESC @7012	WRITE_ASCII 0xbe ~pxilgehe~ #8	WRITE_ASCII 0x1ae ~pxilcarc~ #8	WRITE_ASCII 0x3a ~pxilgehe~ #8	WRITE_ASCII 0x76 ~pxilgehe~ #8
+COPY_EXISTING	~pxilsans.spl~		~override/pxilgehe.spl~	WRITE_ASCII 0xae ~pxilgehx~ #8
+COPY	~Derats_Illo/sorts/pxilgehx.spl~		~override~	SAY NAME1 @70121	SAY UNIDENTIFIED_DESC @70122
+COPY_EXISTING	~pxilgast.itm~		~override/pxilpand.itm~	SAY NAME2 @7013	SAY DESC @7014	WRITE_ASCII 0xbe ~pxilpand~ #8	WRITE_ASCII 0x1de ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxilpand~ #8	WRITE_ASCII 0x76 ~pxilpand~ #8
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilpand.spl~	WRITE_ASCII 0xae ~pxilpadx~ #8	WRITE_ASCII 0xde ~pxilpadx~ #8
+COPY_EXISTING	~pxilpand.itm~		~override/pxilmech.itm~	SAY NAME2 @7015	SAY DESC @7016	WRITE_ASCII 0xbe ~pxilmech~ #8	WRITE_ASCII 0x20e ~pxilpand~ #8	WRITE_ASCII 0x3a ~pxilmech~ #8	WRITE_ASCII 0x76 ~pxilmech~ #8
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilmech.spl~	WRITE_ASCII 0xae ~spcl232~ #8	WRITE_ASCII 0xde ~pxilmecx~ #8
+COPY_EXISTING	~pxilpand.itm~		~override/pxilbyto.itm~	SAY NAME2 @7017	SAY DESC @7018	WRITE_ASCII 0xbe ~pxilbyto~ #8	WRITE_ASCII 0x23e ~pxilpand~ #8	WRITE_ASCII 0x3a ~pxilbyto~ #8	WRITE_ASCII 0x76 ~pxilbyto~ #8
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilbyto.spl~	WRITE_ASCII 0xae ~pxilbyt1~ #8	WRITE_ASCII 0xde ~pxilbyt2~ #8
+COPY_EXISTING	~pxilpand.itm~		~override/pxilterr.itm~	SAY NAME2 @7019	SAY DESC @7020	WRITE_ASCII 0xbe ~pxilterr~ #8	WRITE_ASCII 0x26e ~pxilpand~ #8	WRITE_ASCII 0x3a ~pxilterr~ #8	WRITE_ASCII 0x76 ~pxilterr~ #8
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilterr.spl~	WRITE_ASCII 0xae ~pxilter1~ #8	WRITE_ASCII 0xde ~pxilter2~ #8
+COPY_EXISTING	~pxilgast.itm~		~override/pxilposi.itm~	SAY NAME2 @7021	SAY DESC @7022	WRITE_ASCII 0xbe ~pxilposi~ #8	WRITE_ASCII 0x29e ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxilposi~ #8	WRITE_ASCII 0x76 ~pxilposi~ #8	WRITE_LONG 0x34 220000
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilposi.spl~	WRITE_ASCII 0xae ~pxilpos1~ #8	WRITE_ASCII 0xde ~pxilpos2~ #8
+COPY_EXISTING	~pxilposi.itm~		~override/pxilarbo.itm~	SAY NAME2 @7023	SAY DESC @7024	WRITE_ASCII 0xbe ~pxilarbo~ #8	WRITE_ASCII 0x2ce ~pxilposi~ #8	WRITE_ASCII 0x3a ~pxilarbo~ #8	WRITE_ASCII 0x76 ~pxilarbo~ #8
+COPY_EXISTING	~pxilgast.itm~		~override/pxilair.itm~	SAY NAME2 @7025	SAY DESC @7026	WRITE_ASCII 0xbe ~pxilair~ #8	WRITE_ASCII 0x2fe ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxilair~ #8	WRITE_ASCII 0x76 ~pxilair~ #8	WRITE_LONG 0x34 280000
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilair.spl~	WRITE_ASCII 0xae ~pxilair1~ #8	WRITE_ASCII 0xde ~pxilair2~ #8
+COPY	~Derats_Illo/sorts/pxilair1.spl~		~override~	SAY NAME1 @70261	SAY UNIDENTIFIED_DESC @70262
+COPY_EXISTING	~pxilgast.itm~		~override/pxillimb.itm~	SAY NAME2 @7027	SAY DESC @7028	WRITE_ASCII 0xbe ~pxillimb~ #8	WRITE_ASCII 0x32e ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxillimb~ #8	WRITE_ASCII 0x76 ~pxillimb~ #8	WRITE_LONG 0x34 260000
+COPY	~Derats_Illo/sorts/pxillimx.spl~		~override~	SAY NAME1 @70281	SAY UNIDENTIFIED_DESC @70282
+COPY_EXISTING	~pxilgast.itm~		~override/pxilache.itm~	SAY NAME2 @7029	SAY DESC @7030	WRITE_ASCII 0xbe ~pxilache~ #8	WRITE_ASCII 0x35e ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxilache~ #8	WRITE_ASCII 0x76 ~pxilache~ #8	WRITE_LONG 0x34 300000
+COPY	~Derats_Illo/sorts/pxilachx.spl~		~override~	SAY NAME1 @70301	SAY UNIDENTIFIED_DESC @70302
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilache.spl~	WRITE_ASCII 0xae ~pxilach1~ #8	WRITE_ASCII 0xde ~pxilachx~ #8
+COPY_EXISTING	~spdj.eff~			~override/pxilach1.eff~	WRITE_ASCII 0x30 ~pxilach1~ #8
+COPY_EXISTING	~spdj.eff~			~override/pxilach2.eff~	WRITE_ASCII 0x30 ~pxilach2~ #8
+ACTION_IF GAME_IS ~IWDEE~ THEN BEGIN
+COPY_EXISTING	~pxilach1.cre~					~override~
+				~pxilach2.cre~					~override~	SAY NAME1 #847	SAY NAME2 #847
+END
+COPY_EXISTING	~pxilache.itm~		~override/pxilradi.itm~	SAY NAME2 @7031	SAY DESC @7032	WRITE_ASCII 0xbe ~pxilradi~ #8	WRITE_ASCII 0x38e ~pxilache~ #8	WRITE_ASCII 0x3a ~pxilradi~ #8	WRITE_ASCII 0x76 ~pxilradi~ #8
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilradi.spl~	WRITE_ASCII 0xae ~pxilrad1~ #8	WRITE_ASCII 0xde ~pxilrad2~ #8
+COPY	~Derats_Illo/sorts/pxilrad1.spl~		~override~	SAY UNIDENTIFIED_DESC @70322
+COPY_EXISTING	~pxilgast.itm~		~override/pxiloutr.itm~	SAY NAME2 @7033	SAY DESC @7034	WRITE_ASCII 0xbe ~pxiloutr~ #8	WRITE_ASCII 0x3be ~pxilgast~ #8	WRITE_ASCII 0x3a ~pxiloutr~ #8	WRITE_ASCII 0x76 ~pxiloutr~ #8	WRITE_LONG 0x34 240000
+COPY_EXISTING	~pxilsans.spl~		~override/pxiloutr.spl~	WRITE_ASCII 0xae ~pxiloutx~ #8
+COPY	~Derats_Illo/sorts/pxiloutx.spl~		~override~	SAY NAME1 @70341	SAY UNIDENTIFIED_DESC @70342
+COPY_EXISTING	~pxilair.itm~		~override/pxilvide.itm~	SAY NAME2 @7035	SAY DESC @7036	WRITE_ASCII 0xbe ~pxilvide~ #8	WRITE_ASCII 0x3ee ~pxilair~ #8	WRITE_ASCII 0x3a ~pxilvide~ #8	WRITE_ASCII 0x76 ~pxilvide~ #8
+COPY_EXISTING	~pxilmedu.spl~		~override/pxilvide.spl~	WRITE_ASCII 0xae ~pxilvidx~ #8	WRITE_ASCII 0xde ~pxilvidx~ #8
+COPY	~Derats_Illo/sorts/pxilvidx.spl~		~override~	SAY UNIDENTIFIED_DESC @70362
+
+COPY_EXISTING	~spwi104.spl~		~override/pxilsuc1.spl~ //Charme-personne - Succube
+				~sppr704.spl~		~override/pxilnymx.spl~	//Beauté de la nature - Nymphe
+				~spwi813.spl~		~override/pxilminx.spl~ //Labyrinthe - Minotaure
+				~spwi509.spl~		~override/pxilcrv1.spl~	//Débilité - Maître Cerveau
+				~spwi715.spl~		~override/pxilcrv2.spl~	//Mot de pouvoir : Etourdissement - Maître Cerveau
+				~spwi207.spl~		~override/pxilverr.spl~ //Déblocage - Verrou brisé
+				~sppr319.spl~		~override/pxilverm.spl~ //Convocation d'insectes - Vermine
+				~spwi402.spl~		~override/pxilvoya.spl~ //Porte dimensionnelle - voyageur
+				~sppr504.spl~		~override/pxilviex.spl~ //Rappel à la vie - Vie après la mort
+				~spwi807.spl~		~override/pxilabyx.spl~ //Convocation d'un Fiélon - Abysses
+				~spwi905.spl~		~override/pxilbaax.spl~ //Portail - Baator
+				~sppr410.spl~		~override/pxildrux.spl~ //Appel des créatures des bois - Druide - Arborée
+				~sppr604.spl~		~override/pxilbyt2.spl~ //Conjuration d'Animaux - Bytopie
+				~sppr413.spl~		~override/pxilpos2.spl~ //Protection contre le Plan Négatif - Positif
+				~spwi604.spl~		~override/pxilach1.spl~ //Pétrification - Achéron
+WRITE_BYTE 0x1c 4	WRITE_BYTE 0x74 4 	WRITE_BYTE 0x84 1
+COPY_EXISTING	~spwi604.spl~		~override/pxilmed1.spl~	WRITE_BYTE 0x1c 4	WRITE_BYTE 0x74 4 	WRITE_BYTE 0x84 1	WRITE_BYTE 0x98 65 //Pétrification - Méduse
+COPY_EXISTING	~sppr411.spl~		~override/pxilmed2.spl~	WRITE_BYTE 0x1c 4 //Poison - Méduse
+GET_OFFSET_ARRAY headerOffsets SPL_V10_HEADERS
+PHP_EACH headerOffsets AS _ => headerOffset BEGIN
+	WRITE_BYTE (headerOffset + 0x0) 1
+    WRITE_BYTE (headerOffset + 0x2) 4
+    WRITE_BYTE (headerOffset + 0x12) 1
+	WRITE_BYTE (headerOffset + 0xe) 1
+	WRITE_BYTE (headerOffset + 0x26) 1
+END
+COPY_EXISTING	~spwi107.spl~		~override/pxillang.spl~ //Charme-personne - Langue d'argent
+				~spwi305.spl~		~override/pxilacce.spl~ //Hâte - Accélération
+				~spwi324.spl~		~override/pxilosse.spl~ //Immobilisation des morts-vivants - Mître des ossements
+				~spwi501.spl~		~override/pxilsanx.spl~ //Animation des morts - Des sans-repos
+				~spwi512.spl~		~override/pxilpadx.spl~ //Chaos - Pandémonium
+				~spwi518.spl~		~override/pxillim1.spl~ //Lame fantôme - Lymbes
+				~sppr408.spl~		~override/pxilbyt1.spl~	//Protection contre le Mal 4,5 m - Bytopie
+				~sppr726.spl~		~override/pxilmonx.spl~ //Convocation de Déva - Mont Céleste
+				~spwi702.spl~		~override/pxilter1.spl~	//Convocation d'Elémental de Terre - Terre
+				~spwi408.spl~		~override/pxilter2.spl~	//Peau de pierre - Terre
+				~spwi615.spl~		~override/pxilair2.spl~ //Chaîne d'éclairs - Air
+				~sppr711.spl~		~override/pxilpos1.spl~ //Régénération - Positif
+				~sppr707.spl~		~override/pxilrad2.spl~ //Rayon de soleil - Radiance
+WRITE_BYTE 0x1c 4
+GET_OFFSET_ARRAY headerOffsets SPL_V10_HEADERS
+PHP_EACH headerOffsets AS _ => headerOffset BEGIN
+    WRITE_BYTE (headerOffset + 0x2) 4
+    WRITE_BYTE (headerOffset + 0x12) 1
+END
+COPY_EXISTING	~sppr508.spl~		~override/pxilmecx.spl~ //Ordres chaotiques - Méchanus
+WRITE_BYTE 0x1c 4
+GET_OFFSET_ARRAY headerOffsets SPL_V10_HEADERS
+PHP_EACH headerOffsets AS _ => headerOffset BEGIN
+    WRITE_BYTE (headerOffset + 0x2) 4
+    WRITE_BYTE (headerOffset + 0x12) 1
+	WRITE_BYTE (headerOffset + 0xc) 5
+END
