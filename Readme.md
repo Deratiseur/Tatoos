@@ -12,4 +12,4 @@
 
 Un marchand qui vend des tatouages à usage unique qui peuvent rendre les pcs SURPUISSANTS.
 
-A trader that sells single-use tattoos that can make pcs OVERWHELMING.
+A trader that sells single-use tattoos that can make pcs OVERPOWEFUL.
