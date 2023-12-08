@@ -28,5 +28,5 @@ You'll find him in BG2 in the thieves' hideout, in the shadows in the same room 
 
 You'll find him in Black Pits 2, away from the merchants' circle.
 
-You'll find it in IWDEE, next to Coulon's forge in Kuldahar.
+You'll find him in IWDEE, next to Coulon's forge in Kuldahar.
 
