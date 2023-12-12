@@ -1,6 +1,6 @@
 BACKUP ~Derats_Illo/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v2~
+VERSION ~v3~
 
 AUTO_TRA ~Derats_Illo/Languages/%s~ /////%s~
 
@@ -36,8 +36,7 @@ COPY	~Derats_Illo/Divers/pxillo.cre~			~override~	SAY NAME1 @0	SAY NAME2 @0
 COPY	~Derats_Illo/Divers/pxillo.sto~			~override~	SAY 0xc @0
 INCLUDE ~Derats_Illo/Divers/Scripts/gw_functions.tpa~
 ACTION_IF GAME_IS ~BGT TOB BG2EE EET~ THEN BEGIN
-EXTEND_TOP ~AR0305.BCS~	~Derats_Illo/Divers/Scripts/pxil0305.baf~
-COPY_EXISTING	~ar0305.are~					~override~	WRITE_ASCII 0x94 ~ar0305~ #8
+EXTEND_TOP ~AR0300.BCS~	~Derats_Illo/Divers/Scripts/pxil0300.baf~
 END
 ACTION_IF GAME_IS ~BG2EE EET~ THEN BEGIN
 EXTEND_TOP ~OHBHUB.BCS~	~Derats_Illo/Divers/Scripts/pxil8100.baf~
