@@ -14,7 +14,7 @@
 
 Un marchand qui vend des tatouages à usage unique qui peuvent rendre les pcs SURPUISSANTS.
 
-Vous le trouverez dans BG2 dans la planque des voleur, dans l'ombre dans la même pièce que la vendeuse du marché noir.
+Vous le trouverez dans BG2 à l’extérieur de la guilde des voleurs, au sud sous le préau ombragé.
 
 Vous le trouverez dans les fosses noires 2 à l'écart du cercle des marchands.
 
@@ -24,7 +24,7 @@ Vous le trouverez dans IWDEE à coté de la forge de Coulon à Kuldahar.
 
 A trader that sells single-use tattoos that can make pcs OVERPOWEFUL.
 
-You'll find him in BG2 in the thieves' hideout, in the shadows in the same room as the black market vendor.
+You'll find him in BG2 outside the thieves' guild, to the south under the shady courtyard.
 
 You'll find him in Black Pits 2, away from the merchants' circle.
 
