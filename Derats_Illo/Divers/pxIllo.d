@@ -1,7 +1,7 @@
 BEGIN ~PxIllo~
 
 IF ~OR(3)
-	AreaCheck("AR0305")
+	AreaCheck("AR0300")
 	AreaCheck("AR2100")
 	AreaCheck("OH8100")~ THEN BEGIN intro SAY @501
 	IF ~Global("PxIllo","LOCALS",0)~ THEN REPLY @502 DO ~SetGlobal("PxIllo","LOCALS",1)~ GOTO Tatoo
