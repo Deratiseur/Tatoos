@@ -8,3 +8,6 @@ mise en ligne
  Suppression de quelques tatoos, ajouts et révisions de pleins d'autres.
  Modification de quelques prix.
  Mise en place des exclusivités "plans extérieurs" et "créatures".
+
+V3 :
+ Dans BG2, déplacement du vendeur à l'extérieur de la guilde des voleurs pour éviter un conflit de mod et le cas de l'association avec Bodhi.
