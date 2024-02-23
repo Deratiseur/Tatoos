@@ -2,6 +2,8 @@
 @9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
 @0009 = ~You must have ToB installed or use an Enhanced Edition to install this mod.~
 @0 = ~Illo the Tattoo artist~
+@1 = ~Divide the price of tattoos by two (cheating)~
+@2 = ~This component requires the main component~.
 @101 = ~Tattoo of protection~
 @102 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
