@@ -30,6 +30,7 @@ LANGUAGE ~Francais~	~French~
 
 BEGIN @0
 REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE EET IWDEE~ @0009
+DESIGNATED 0
 
 COMPILE ~Derats_Illo/Divers/pxillo.d~
 COPY	~Derats_Illo/Divers/pxillo.cre~			~override~	SAY NAME1 @0	SAY NAME2 @0
@@ -267,3 +268,80 @@ PHP_EACH headerOffsets AS _ => headerOffset BEGIN
     WRITE_BYTE (headerOffset + 0x12) 1
 	WRITE_BYTE (headerOffset + 0xc) 5
 END
+
+BEGIN @1
+REQUIRE_COMPONENT ~Setup-Derats_Illo.tp2~ 0 @2
+COPY_EXISTING		~pxilca1.itm~				~override~
+					~pxilprc1.itm~				~override~
+					~pxiljds1.itm~				~override~
+					~pxilvie1.itm~				~override~
+					~pxildeg1.itm~				~override~
+					~pxilsour.itm~				~override~
+					~pxilfor1.itm~				~override~
+					~pxildex1.itm~				~override~
+					~pxilcon1.itm~				~override~
+					~pxilsag1.itm~				~override~
+					~pxilint1.itm~				~override~
+					~pxilcha1.itm~				~override~	WRITE_SHORT 0X34 12500			
+COPY_EXISTING		~pxilca2.itm~				~override~
+					~pxiljds2.itm~				~override~
+					~pxilvie2.itm~				~override~
+					~pxilluck.itm~				~override~
+					~pxilfor2.itm~				~override~
+					~pxildex2.itm~				~override~
+					~pxilcon2.itm~				~override~
+					~pxilsag2.itm~				~override~
+					~pxilint2.itm~				~override~
+					~pxilcha2.itm~				~override~	WRITE_SHORT 0X34 25000
+COPY_EXISTING		~pxilacce.itm~				~override~
+					~pxilverm.itm~				~override~
+					~pxillame.itm~				~override~
+					~pxilosse.itm~				~override~	WRITE_SHORT 0X34 30000
+COPY_EXISTING		~pxillian.itm~				~override~
+					~pxillang.itm~				~override~	WRITE_SHORT 0X34 35000
+COPY_EXISTING		~pxilger1.itm~				~override~	
+					~pxilmag1.itm~				~override~	
+					~pxilvol1.itm~				~override~	
+					~pxilclr1.itm~				~override~	
+					~pxildru1.itm~				~override~	WRITE_SHORT 0X34 37500
+COPY_EXISTING		~pxilverr.itm~				~override~	WRITE_SHORT 0X34 40000
+COPY_EXISTING		~pxilprc2.itm~				~override~
+					~pxilsans.itm~				~override~
+					~pxilviea.itm~				~override~
+					~pxilvoya.itm~				~override~	WRITE_SHORT 0X34 50000
+COPY_EXISTING		~pxilsucu.itm~				~override~
+					~pxilabys.itm~				~override~	WRITE_LONG 0X34 80000
+COPY_EXISTING		~pxilmino.itm~				~override~
+					~pxilcarc.itm~				~override~
+					~pxilbaat.itm~				~override~
+					~pxilmont.itm~				~override~
+					~pxilgehe.itm~				~override~	WRITE_LONG 0X34 90000
+COPY_EXISTING		~pxildeg2.itm~				~override~
+					~pxiltroi.itm~				~override~
+					~pxilnymp.itm~				~override~
+					~pxilmedu.itm~				~override~
+					~pxiltrol.itm~				~override~
+					~pxilgast.itm~				~override~	
+					~pxilpand.itm~				~override~	
+					~pxilmech.itm~				~override~
+					~pxilbyto.itm~				~override~
+					~pxilterr.itm~				~override~
+					~pxilarbo.itm~				~override~	WRITE_LONG 0X34 100000
+COPY_EXISTING		~pxilposi.itm~				~override~	WRITE_LONG 0X34 110000
+COPY_EXISTING		~pxilmodr.itm~				~override~
+					~pxilcerv.itm~				~override~
+					~pxiloutr.itm~				~override~	WRITE_LONG 0X34 120000
+COPY_EXISTING		~pxildemo.itm~				~override~
+					~pxillimb.itm~				~override~	WRITE_LONG 0X34 130000
+COPY_EXISTING		~pxilair.itm~				~override~
+					~pxilvide.itm~				~override~	WRITE_LONG 0X34 140000
+COPY_EXISTING		~pxiltran.itm~				~override~
+					~pxilger2.itm~				~override~
+					~pxilmag2.itm~				~override~
+					~pxilvol2.itm~				~override~
+					~pxilclr2.itm~				~override~
+					~pxilmoin.itm~				~override~
+					~pxildru2.itm~				~override~
+					~pxilradi.itm~				~override~
+					~pxilache.itm~				~override~	WRITE_LONG 0X34 150000
+COPY_EXISTING		~pxilpala.itm~				~override~	WRITE_LONG 0X34 180000

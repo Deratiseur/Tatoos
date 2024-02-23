@@ -1,13 +1,15 @@
 13/11/2023 : V1
 mise en ligne
 
- : V2
+ V2 :
  Correction :
  le Tatouage pour Moine ne faisait rien
  Modification :
  Suppression de quelques tatoos, ajouts et révisions de pleins d'autres.
  Modification de quelques prix.
  Mise en place des exclusivités "plans extérieurs" et "créatures".
-
-V3 :
+ 
+ V3 :
  Dans BG2, déplacement du vendeur à l'extérieur de la guilde des voleurs pour éviter un conflit de mod et le cas de l'association avec Bodhi.
+ 
+ V4 : ajout d'une option pour diviser le prix des tatouages par deux.
