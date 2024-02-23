@@ -1,6 +1,8 @@
 @9001 = ~[Uu]tilisable\([ %tab%]+[Ss]eulement\|[ %tab%]+[Uu]niquement\)?[ %tab%]+[Pp]ar[ %tab%]*:~
 @9002 = ~\([Nn]on[ %tab%]+\|[Ii]n\)[Uu]tilisable[ %tab%]+[Pp]ar[ %tab%]*:~
 @0 = ~Illo le Tatoueur~
+@1 = ~Diviser par deux le prix des tatouages (triche)~
+@2 = ~Ce composant nécessite le composant principal~
 @101 = ~Tatouage de protection~
 @102 = ~C'est une rune magique inscrite sur ce qui semble être de la peau elfique. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et accordant son pouvoir.
 
