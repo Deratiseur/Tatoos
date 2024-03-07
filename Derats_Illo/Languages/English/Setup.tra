@@ -59,7 +59,7 @@ Saving Throws: +2
 
 Special: cannot be combined with another Tattoo of resistance~
 
-@1013 = ~Tatouage of endurance~
+@1013 = ~Tattoo of endurance~
 @1014 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
@@ -75,7 +75,7 @@ STATISTICS:
 
 Hit Points: +9~
 
-@1017 = ~Tatoo of specialisation~
+@1017 = ~Tattoo of specialisation~
 @1018 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
@@ -84,7 +84,7 @@ STATISTICS:
 
 Special: cannot be combined with the Tattoo of specialisation~
 
-@1019 = ~Tatoo of supreme specialisation~
+@1019 = ~Tattoo of supreme specialisation~
 @1020 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
@@ -115,28 +115,6 @@ Backstab multiplier : +1~
 
 STATISTICS:
 Luck: +1~
-
-
-
-@21 = ~Tattoo of the Troll~
-@22 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
-
-STATISTICS:
-
-Strength: +1
-Immunity to fear
-Regenerate 1 Hit Point per round
-
-Special: cannot be combined with another Tattoo of creature~
-
-@23 = ~Tattoo of the Positive energy plane~
-@24 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
-
-STATISTICS:
-
-Conjure Air Archomental and Lightning Bolt once a day each.
-
-Special: cannot be combined with another Tattoo of Plane~
 
 @201 = ~Tattoo of power~
 @202 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
@@ -323,12 +301,12 @@ STATISTICS:
 
 Wisdom: +1
 Intelligence: +1
-Immune to Hold creature, Paralyze and Charm Creature
+Immune to Hold and Charm
 True Sight once a day
 
 Special: cannot be combined with another Tattoo of creature~
 
-@3013 = ~Tattoo of the devil~
+@3013 = ~Tattoo of the Devil~
 @3014 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
@@ -341,14 +319,14 @@ Fire Resistance: +50%
 Special: cannot be combined with another Tattoo of creature
 
 Usable by:
-Evil~
++1 attack/round~
 
 @3015 = ~Tattoo of the Master brain~
 @3016 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
 
 STATISTICS:
 
-Feeblemind andPower Word, Stun once a day each
+Feeblemind and Power Word, Stun once a day each
 
 Special: cannot be combined with another Tattoo of creature~
 
@@ -593,14 +571,14 @@ STATISTICS:
 
 Haste once a day~
 
-@603 = ~Tattoo of the Vermin~
+@603 = ~Tattoo of the vermin~
 @604 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
 
 STATISTICS:
 
 Summon Insects once a day~
 
-@605 = ~Tattoo of the Master of Blades~
+@605 = ~Tattoo of the blade master~
 @606 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
 
 Tenser's Deadly strike once a day~
@@ -869,7 +847,7 @@ This spell creates a chaotic movement in the web at the location designated by t
 
 STATISTICS:
 
-Conjure Elite orc troop summons and Entropic zone once a day each.
+Conjure Elite orc troop and Transmute flesh to stone once a day each.
 
 Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
 @70301 = ~Conjure Elite orc troop~
