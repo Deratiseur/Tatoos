@@ -5,4 +5,92 @@ You'll find it in IWDEE, next to Coulon's forge in Kuldahar.
 
 These tattoos are for single use only and are used like a tome: one tattoo = one ability or power.
 
-They're expensive, but they're powerful. I know you like them.
+They're expensive, but they're powerful. I know you like this.
+
+An optional component halves the price to make them more affordables.
+
+List of available tattoos:
+Of Enhancement: normal or superior, it's one or the other, not both.
+Tattoo of protection			+1 AC		25K
+Tattoo of superior protection	+2 AC		50K
+Tattoo of precision				+1 THAC0	25K
+Tattoo of supreme precision		+3 THAC0, +1 to Critical Hit chances	100K
+Tattoo of resistance			+1 saves								25K
+Tattoo of superior resistance	+3 saves								50K
+Tattoo of endurance			+3 maximum hit points					25K					
+Tattoo of superior endurance	+9 maximum hit points					50K
+Tattoo of specialisation			+1 damage on all attacks				25K
+Tattoo of supreme specialisation	+3 damage on all attacks, +3 THAC0		200K
+Tattoo of the deceitful			+1 backstab multiplier					25K
+Tattoo of the lucky devil		Luck +1									50K
+Tattoo of the three treasures	+5% maximum hit points, +5% xp gained, +5% resistances	200K
+
+Of Characteristic: normal or superior, it's one or the other, not both. (Exception: the Tattoo of transcendance is cumulative)
+Tattoo of power					+1 STR		25K
+Tattoo of superior power		+2 STR		50K	
+Tattoo of action				+1 DEX		25K	
+Tattoo of superior action		+2 DEX		50K	
+Tattoo of health				+1 CON		25K
+Tattoo of superior health		+2 CON		50K	
+Tattoo of spirit				+1 WIS		25K
+Tattoo of soul					+2 WIS		50K	
+Tattoo of shrewdness			+1 INT		25K
+Tattoo of revelation			+2 INT		50K	
+Tattoo of presence				+1 CHA		25K
+Tattoo of superior presence		+2 CHA		50K	
+Tattoo of transcendance			+1 to all characteristics	200K
+
+Of Class: normal or superior, it's one or the other, not both, and it's class reserved.
+Tattoo of warrior				+1 STR, +1 AC, +3 maximum hit points													75K
+Tattoo of supreme warrior		+3 STR, +3 AC, +9 maximum hit points													300K
+Tattoo of wizard				+1 INT, +1 spell from levels 1 to 3, -1 casting time (non-EE) / damage +10% (EE)		75K
+Tattoo of archimage				+3 INT, +1 spell from levels 1 to 9, -3 casting time (non-EE) / damage +30% (EE)		300K
+Tattoo of thief					+1 DEX, +10 to all thief skills															75K
+Tattoo of master thief			+3 DEX, +30 to all thief skills, luck +1												300K
+Tattoo of cleric				+1 WIS, +1 spell from levels 1 and 2, Turn Undead Level +2								75K
+Tattoo of archicleric			+3 WIS, +1 spell from levels 1 to 7, Turn Undead Level +6, 1x/day Defensive Harmony (+4, 1 turn) 300K
+Tattoo of druid					+1 WIS, +1 spell from levels 1 to 4,													75K
+Tattoo of Archidruid			+3 WIS, +1 spell from levels 1 to 7, +1 levels 5 spell, 1x/day Call Woodland Beings		300K
+Tattoo of the master of the Shi	+1 DEX, +1 CON, +1 WIS, +1 attack/round, +3 fist damage									300K
+Tattoo of the Paragon of Virtue	+1 STR, +1 WIS, +2 CHA, Chant +1, Aid +1, Bless +1 (Minimal wisdom 15)					360K
+
+Tattoo of acceleration			1x/day Haste										60K
+Tattoo of the vermin			1x/day Summon Insects								60K
+Tattoo of the blades Master		1x/day Tenser deadly strikes (5 rounds)				60K
+Tattoo of the master of bones	1x/day Hold Undead									60K
+Tattoo of creepers				2x/day Slashing creepers (Entangle +1D2 slashing)	70K
+Tattoo of the silver tongue		+2 CHA, 1x/day Friend								70K
+Tattoo of the broken lock		2x/day Knock										80K
+Tattoo of the restless			1x/day Animate Dead									100K
+Tattoo of life after death		1x/day Raise dead									100K
+Tattoo of the traveler			Movement +2, 1x/day Dimension Door					100K
+
+Of Creatures: it's one and only one, no other.
+Tattoo of the Succubus			+1 CHA, +5% Magic Resistance, 1x/day Charm Person, 1x/day Draining Touch (1 level)	160K
+Tattoo of the Minotaur			+1 STR, 1x/day Maze																	180K
+Tattoo of the Nymph				+2 CHA, 1x/day Nature's Beauty														200K
+Tattoo of the Medusa			1x/day Flesh to Stone, 1x/day Poison												200K
+Tattoo of the Troll				+1 STR,	+1 CON, Immunity to fear, Regeneration 1/round								200K
+Tattoo of the Modron			+1 INT, +1 WIS, Immune to Hold and Charm, 1x/day True Sight							240K
+Tattoo of the Master brain		1x/day Feeblemind, 1x/day Power Word, Stun											240K
+Tattoo of the Devil				+1 STR, +10% Magic Resistance, +50% Fire Resistance, +1 attack/round (Evil only)	260K
+
+Of Outer Planes: it's one and only one, no other.
+Tattoo of the Abyss				1x/day Summon Fiend												160K
+Tattoo of Carceri				1x/day Imprisonment (save -4, MR)								180K
+Tattoo of Baator				1x/day Gate														180K
+Tattoo of Mount Celestia		1x/day Summon Deva (Loyal Good Only)							180K
+Tattoo of Gehenna				1x/day Volcanic Rain (Fire, cold, acid 9D6 no save nor MR)		180K
+Tattoo of the Gray Waste		Immune to Color Spells, 2x/day Emotion: Hopelssness (save -4)	200K
+Tattoo of the Pandemonium		2x/day Chaos													200K
+Tattoo of Mechanus				1x/day True Sight, 1x/dat Chaotic Commands (personal)			200K
+Tattoo of Bytopia						 1x/day Protection From Evil 10 foot, 1x/day Conjure Animals			200K
+Tattoo of the elemental plane of earth	 1x/day Conjure Earth Elemental, 1x/day Stoneskin						200K
+Tattoo of Arborea						 2x/day Barbarian Rage, 1x/day Call Woodland Beings						200K
+Tattoo of the Positive energy plane		 1x/day Regenerate, 1x/day Negative Plane protection (2 turns)			220K
+Tattoo of the Outlands					 1x/day Protection of the rings (blocks level 7 to 9 spells)			240K
+Tattoo of Limbo							 +20 on Wild Surge Table, 1x/day Entropic zone, 1x/day Phantom Blade	260K
+Tattoo of the elemental plane of air	 1x/day Conjure Air Archomental, 1x/day Chain Lightning					280K
+Tattoo of the quasiele plane of vacuum	 2x/day Disintegrate													280K
+Tattoo of the quasiele plane of radiance 1x/day Primatic Spray (save -4), 1x/day Sunray							300K
+Tattoo of Acheron						 1x/day Transmute flesh to stone, 1x/day Conjure Elite orc troop		300K

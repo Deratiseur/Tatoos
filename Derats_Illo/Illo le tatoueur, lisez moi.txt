@@ -6,3 +6,92 @@ Vous le trouverez dans IWDEE à coté de la forge de Coulon à Kuldahar.
 Ces tatouages sont à usage unique et s'utilisent comme un tome : un tatouage = une capacité ou un pouvoir.
 
 Ils sont chers, mais ils sont puissants. Je sais que vous aimez ça.
+
+Un composant optionnel permet de diviser les prix par deux afin de les rendre plus abordables.
+
+
+Lise des tatouages disponibles :
+D'amélioration : normal ou supérieur, c'est l'un ou l'autre, pas les deux.
+De protection				+1 CA		25K
+De protection supérieure	+2 CA		50K
+De précision				+1 TAC0		25K
+De précision suprême		+3 TAC0, +1 aux chances de coup critiques	100K
+De résistance				+1 aux jets de sauvegarde					25k
+De résistance supérieure	+2 aux jets de sauvegarde					50K
+D'endurance					+3 points de vie maximum					25K
+D'endurance supérieure		+9 points de vie maximum					50K
+De spécialisation			+1 dégât sur toutes les attaques			25K
+De spécialisation suprême	+3 dégâts sur toutes les attaques, +3 TAC0	200K
+Du fourbe					Modificateur d'attaque sournoise x1			25K
+Du veinard					Chance +1									50K
+Des trois trésors			+5% points de vie maximum, +5% aux gains d'expérience, +5% aux résistances	200K
+
+De caractéristique : normal ou supérieur, c'est l'un ou l'autre, pas les deux. (Exception : le tatouage de transcendance est cumulable)
+De puissance				+1 FOR		25K
+De puissance supérieure		+2 FOR		50K
+D'action					+1 DEX		25K
+D'action supérieure			+2 DEX		50K
+De santé					+1 CON		25K
+De santé supérieure			+2 CON		50K
+De l'esprit					+1 SAG		25K
+De l'âme					+2 SAG		50K
+De perspicacité				+1 INT		25K
+De révélation				+2 INT		50K
+De présence					+1 CHA		25K
+De présence supérieure		+2 CHA		50K
+De Transcendance			+1 à toutes les caractéristiques	200K
+
+De classe : normal ou supérieur, c'est l'un ou l'autre, pas les deux, et c'est classe réservé.
+De guerrier					+1 FOR, +1 CA, +3 points de vie maximum															75K
+De guerrier suprême			+3 FOR, +3 CA, +9 points de vie maximum															300K
+De mage						+1 INT, +1 sort des niveaux 1 à 3, -1 au temps d'incantation (non-EE) / dégâts +10%	(EE)		75K
+D'archimage					+3 INT, +1 sort des niveaux 1 à 9, -3 au temps d'incantation (non-EE) / dégâts +30%	(EE)		300K
+De voleur					+1 DEX, +1 TAC0, +10 à toutes les compétence de voleur											75K
+De maître voleur			+3 DEX, +3 TAC0, +30 à toutes les compétence de voleur, chance +1								300K
+De prêtre					+1 SAG, +1 sort de niveau 1 et 2, +2 au niveau de renvoi										75K
+D'archiprêtre				+3 SAG, +1 sort de niveau 1 à 7, +6 au niveau de renvoi, 1x/jour Harmonie défen. (+4, 1 tour)	300K
+De druide					+1 SAG, +1 sort de niveau 1 à 4																	75K
+D'Archidruide				+3 SAG, +1 sort de niveau 1 à 7, +1 sort de niveau 5, 1x/jour Appel de créature des bois		300K
+Du maître du Shi			+1 DEX, +1 CON, +1 SAG, +1 attaque par round, +3 dégâts avec les poings							300K
+Du Parangon de vertu		+1 FOR, +1 SAG, +2 CHA, Chant +1, Aide +1, Bénédiction +1  (sagesse requise 15)					360K
+
+D'accélération				1x/jour Hâte												60K
+De la vermine				1x jour Convocation d'insectes								60K
+Du maître des lames			1x/jour Coups mortels de Tenser (5 rounds)					60K
+Du maître des ossements		1x/jour Immobilisation des morts-vivants					60K
+Des lianes					2x/jour Lianes déchirantes (Enchevêtrement +1D2 tranchant)	70K
+De la langue d'argent		+2 CHA, 1x/jour Amitié										70K
+Du verrou brisé				2x/jour Déblocage											80K
+Des sans-repos				1x/jour Animation des morts									100K
+De la vie après la mort		1x/jour Rappel à la vie										100K
+Du voyageur					Vitesse de marche +2, 1x/jour Porte dimensionnelle			100K
+
+De créature : c'est un et un seul, aucun autre.
+De la Succube				+1 CHA, +5% résis à la magie,1x/jour charme personne, 1x/jour Toucher drainant (1 niv)	160K
+Du Minotaure				+1 FOR, 1x/jour Labyrinthe																180K	
+De la Nymphe				+2 CHA, 1x/jour Beauté de la nature														200K
+De la Méduse				1x/jour Transmutation de la Chair en Pierre, 1x/jour Poison								200K
+Du Troll					+1 FOR, +1 CON, Immunité à la peur, Régénération 1 par round							200K
+Du Modrone					+1 INT, +1 SAG, immunité à l'immobilisation et aux charmes, 1/jour Vision véritable		240K
+Du Maître Cerveau			1x/jour Débilité mentale, 1x/jour Mot de pouvoir étourdissant.							240K
+Du Démon					+1 FOR, +10% résis à la magie, +1 attaque par round, résistance au feu +50% ((restriction : mauvais)	260K	
+
+De plans extérieur : c'est un et un seul, aucun autre.
+Des Abysses					1x/jour Convocation d'un Fiélon																160K
+Des Carcéres				1x/jour Emprisonnement (jds à -4, RM)														180K
+De Baator					1x/jour Portail																				180K
+Du Mont Céleste				1x/jour Convocation de Déva (restriction : loyal bon)										180K
+De la Géhenne				1x/jour Pluie Volcanique (feu, froid, acide 9D6 sans jds ni RM)								180K
+De la Gaste grise			Immunité aux sorts utilisant des couleurs, 2x/jour Émotion : Désespoir (jds à -4)			200K	
+Du Pandémonium				2x/jour Chaos																				200K	
+De Méchanus					1x/jour Vision véritable, 1x/jour Ordre chaotique (personnel)								200K
+De la Bytopie				1x/jour Protection contre le mal sur 4,5m, 1x/jour Conjuration d'animaux					200K
+Du plan élémen de la terre	1x/jour Convocation d'élémentaire de terre, 1x/jour Peau de pierre							200K
+De l'Arborée				2x/jour Rage de barbare, 1x/jour Appel de créature des bois 								200K
+Du plan d’énergie positive	1x/jour Régénération, 1x/jour Protection contre le plan négatif (2 tours) 					220K
+De l'Outreterre				1x/jour Protection des anneaux (bloque les sorts de niveau 7 à 9)							240K	
+Des Limbes					+20 sur la table des hiatus, 1x/jour Zone entropique (lanceur immunisé), 1x lame fantôme	260K
+Du plan élément de l'air	1x/jour Convocation d'archomental d'air, 1x/jour Chaîne d'éclairs 							280K
+Du plan quasi-él Vide		2x/jour Désintégration (jds à -4) l 														280K
+Du plan quasi-él Radiance	1x/jour Vaporisation prismatique (jds à -4), 1x/Rayon de soleil 							300K
+De l'Achéron				1x/jour Transmutation de la Chair en Pierre, 1x/jour Convocation de troupe d’élite orque	300K

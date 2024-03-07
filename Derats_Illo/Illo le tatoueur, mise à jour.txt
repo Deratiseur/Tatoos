@@ -1,15 +1,21 @@
 13/11/2023 : V1
 mise en ligne
 
- V2 :
- Correction :
- le Tatouage pour Moine ne faisait rien
- Modification :
- Suppression de quelques tatoos, ajouts et révisions de pleins d'autres.
- Modification de quelques prix.
- Mise en place des exclusivités "plans extérieurs" et "créatures".
+V2 :
+Correction :
+le Tatouage pour Moine ne faisait rien
+Modification :
+Suppression de quelques tatoos, ajouts et révisions de pleins d'autres.
+Modification de quelques prix.
+Mise en place des exclusivités "plans extérieurs" et "créatures".
  
- V3 :
- Dans BG2, déplacement du vendeur à l'extérieur de la guilde des voleurs pour éviter un conflit de mod et le cas de l'association avec Bodhi.
- 
- V4 : ajout d'une option pour diviser le prix des tatouages par deux.
+V3 :
+Dans BG2, déplacement du vendeur à l'extérieur de la guilde des voleurs pour éviter un conflit de mod et le cas de l'association avec Bodhi.
+
+V4 :
+Ajout d'un composant pour diviser les prix par deux.
+
+V4.1 :
+Listing des tatouages dans le lisez_moi suite à une demande.
+Corrections diverse dans la langue anglaise.
+Le prix du Tatouage de Transcendance passe de 300K à 200K.
