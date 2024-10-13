@@ -12,21 +12,25 @@
 ## Description:
 -------------
 
-Un marchand qui vend des tatouages à usage unique qui peuvent rendre les pcs SURPUISSANTS.
+Un marchand qui vend des tatouages à usage unique qui fonctionnent come des tomes, mais en version ++
 
-Vous le trouverez dans BG2 à l’extérieur de la guilde des voleurs, au sud sous le préau ombragé.
+Vous vous rappelez des tatouages de PST ? Il y a les mêmes, et plein d'autres.
 
-Vous le trouverez dans les fosses noires 2 à l'écart du cercle des marchands.
+Vous trouverez le marchand dans BG2 à l’extérieur de la guilde des voleurs, au sud sous le préau ombragé.
 
-Vous le trouverez dans IWDEE à coté de la forge de Coulon à Kuldahar.
+Vous trouverez le marchand dans les fosses noires 2 à l'écart du cercle des marchands.
+
+Vous trouverez le marchand dans IWDEE à coté de la forge de Coulon à Kuldahar.
 
 -------------
 
-A trader that sells single-use tattoos that can make pcs OVERPOWEFUL.
+A merchant selling single-use tattoos that work like tomes, but in a ++ version.
 
-You'll find him in BG2 outside the thieves' guild, to the south under the shady courtyard.
+Remember PST's tattoos? They're the same, and lots more.
 
-You'll find him in Black Pits 2, away from the merchants' circle.
+You'll find the merchant in BG2 outside the thieves' guild, to the south under the shady courtyard.
 
-You'll find him in IWDEE, next to Coulon's forge in Kuldahar.
+You'll find the merchant in Black Pits 2, away from the merchants' circle.
+
+You'll find the merchant in IWDEE, next to Coulon's forge in Kuldahar.
 
