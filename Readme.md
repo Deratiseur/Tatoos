@@ -24,7 +24,7 @@ Vous trouverez le marchand dans IWDEE à coté de la forge de Coulon à Kuldahar
 
 -------------
 
-A merchant selling 74 single-use tattoos that work like tomes, but in a ++ version.
+A merchant selling 74 single-usage tattoos that work like tomes, but in a ++ version.
 
 Remember PST's tattoos? They're the same, and lots more.
 
