@@ -12,7 +12,7 @@
 ## Description:
 -------------
 
-Un marchand qui vend 74 tatouages à usage unique qui fonctionnent come des tomes, mais en version ++
+Un marchand qui vend 74 tatouages à usage unique qui fonctionnent comme des tomes, mais en version ++
 
 Vous vous rappelez des tatouages de PST ? Il y a les mêmes, et plein d'autres.
 
