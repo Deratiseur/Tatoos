@@ -9,6 +9,8 @@ They're expensive, but they're powerful. I know you like this.
 
 An optional component halves the price to make them more affordables.
 
+A second optional component (for IWDEE only) reduces tattoo prices by a further 20% (because the economy of IWDEE is not the same as that of BG2EE).
+
 List of available tattoos:
 Of Enhancement: normal or superior, it's one or the other, not both.
 Tattoo of protection			+1 AC		25K
@@ -17,10 +19,10 @@ Tattoo of precision				+1 THAC0	25K
 Tattoo of supreme precision		+3 THAC0, +1 to Critical Hit chances	100K
 Tattoo of resistance			+1 saves								25K
 Tattoo of superior resistance	+3 saves								50K
-Tattoo of endurance			+3 maximum hit points					25K					
+Tattoo of endurance				+3 maximum hit points					25K					
 Tattoo of superior endurance	+9 maximum hit points					50K
-Tattoo of specialisation			+1 damage on all attacks				25K
-Tattoo of supreme specialisation	+3 damage on all attacks, +3 THAC0		200K
+Tattoo of specialisation		+1 damage on all attacks				25K
+Tattoo of supreme specialisation+3 damage on all attacks, +3 THAC0		200K
 Tattoo of the deceitful			+1 backstab multiplier					25K
 Tattoo of the lucky devil		Luck +1									50K
 Tattoo of the three treasures	+5% maximum hit points, +5% xp gained, +5% resistances	200K
@@ -41,18 +43,21 @@ Tattoo of superior presence		+2 CHA		50K
 Tattoo of transcendance			+1 to all characteristics	200K
 
 Of Class: normal or superior, it's one or the other, not both, and it's class reserved.
-Tattoo of warrior				+1 STR, +1 AC, +3 maximum hit points													75K
-Tattoo of supreme warrior		+3 STR, +3 AC, +9 maximum hit points													300K
-Tattoo of wizard				+1 INT, +1 spell from levels 1 to 3, -1 casting time (non-EE) / damage +10% (EE)		75K
-Tattoo of archimage				+3 INT, +1 spell from levels 1 to 9, -3 casting time (non-EE) / damage +30% (EE)		300K
-Tattoo of thief					+1 DEX, +10 to all thief skills															75K
-Tattoo of master thief			+3 DEX, +30 to all thief skills, luck +1												300K
-Tattoo of cleric				+1 WIS, +1 spell from levels 1 and 2, Turn Undead Level +2								75K
-Tattoo of archicleric			+3 WIS, +1 spell from levels 1 to 7, Turn Undead Level +6, 1x/day Defensive Harmony (+4, 1 turn) 300K
-Tattoo of druid					+1 WIS, +1 spell from levels 1 to 4,													75K
-Tattoo of Archidruid			+3 WIS, +1 spell from levels 1 to 7, +1 levels 5 spell, 1x/day Call Woodland Beings		300K
-Tattoo of the master of the Shi	+1 DEX, +1 CON, +1 WIS, +1 attack/round, +3 fist damage									300K
-Tattoo of the Paragon of Virtue	+1 STR, +1 WIS, +2 CHA, Chant +1, Aid +1, Bless +1 (Minimal wisdom 15)					360K
+Tattoo of warrior				+1 STR, +1 AC, +3 maximum hit points														75K
+Tattoo of supreme warrior		+3 STR, +3 AC, +9 maximum hit points														300K
+Tattoo of wizard				+1 INT, +1 spell from levels 1 to 3, -1 casting time (non-EE) / damage +10% (EE)			75K
+Tattoo of archimage				+3 INT, +1 spell from levels 1 to 9, -3 casting time (non-EE) / damage +30% (EE)			300K
+Tattoo of thief					+1 DEX, +10 to all thief skills																75K
+Tattoo of master thief			+3 DEX, +30 to all thief skills, luck +1													300K
+Tattoo of cleric				+1 WIS, +1 spell from levels 1 and 2, Turn Undead Level +2									75K
+Tattoo of archicleric			+3 WIS, +1 spell from levels 1 to 7, Turn Undead Level +6, 1x/day Defensive Harmony (AC+4, 1 turn) 300K
+Tattoo of druid					+1 WIS, +1 spell from levels 1 to 4,														75K
+Tattoo of Archidruid			+3 WIS, +1 spell from levels 1 to 7, +1 levels 5 spell, 1x/day Call Woodland Beings			300K
+Tattoo of the master of the Shi	+1 DEX, +1 CON, +1 WIS, +1 attack/round, +3 fist damage										300K
+Tattoo of the forester			+1 STR,	+1 DEX, +1 WIS, +1/2 attack/round, +30% to stealth, 1x/day Conjure animals			300K
+Tattoo of the master of masks	+1 DEX, +1 INT, +1 CHA, 1 spell from levels 1 to 7, Armored spellcasting, 1x/jour Tenser's Transformation	300K
+Tattoo of the Heritage			+1 CON, +1 INT, +1 CHA, +1 spell from levels 1 to 9, -3 casting time						300K
+Tattoo of the Paragon of Virtue	+1 STR, +1 CON, +1 WIS, +1 CHA, Chant +1, Aid +1, Bless +1 (Minimal wisdom 15)				360K
 
 Tattoo of acceleration			1x/day Haste										60K
 Tattoo of the vermin			1x/day Summon Insects								60K
@@ -83,7 +88,7 @@ Tattoo of Mount Celestia		1x/day Summon Deva (Loyal Good Only)							180K
 Tattoo of Gehenna				1x/day Volcanic Rain (Fire, cold, acid 9D6 no save nor MR)		180K
 Tattoo of the Gray Waste		Immune to Color Spells, 2x/day Emotion: Hopelssness (save -4)	200K
 Tattoo of the Pandemonium		2x/day Chaos													200K
-Tattoo of Mechanus				1x/day True Sight, 1x/dat Chaotic Commands (personal)			200K
+Tattoo of Mechanus				1x/day True Sight, 1x/day Chaotic Commands (personal)			200K
 Tattoo of Bytopia						 1x/day Protection From Evil 10 foot, 1x/day Conjure Animals			200K
 Tattoo of the elemental plane of earth	 1x/day Conjure Earth Elemental, 1x/day Stoneskin						200K
 Tattoo of Arborea						 2x/day Barbarian Rage, 1x/day Call Woodland Beings						200K

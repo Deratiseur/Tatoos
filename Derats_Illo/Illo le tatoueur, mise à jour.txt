@@ -19,3 +19,13 @@ V4.1 :
 Listing des tatouages dans le lisez_moi suite à une demande.
 Corrections diverse dans la langue anglaise.
 Le prix du Tatouage de Transcendance passe de 300K à 200K.
+
+V5 :
+Ajout d'une deuxième option réservée à IWDEE pour réduire encore plus le prix.
+Ajout des tatouages du rôdeur, du barde et de l'ensorceleur.
+Légère modification du tatouage du paladin.
+Correction du prix bugué du Tatouage de Précision suprême.
+Correction du tatouage pour moine qui conférait trois attaques/round au lieu de une.
+Correction des tatouages de classes qui affichaient un texte étrange en cas d'essai d'utilisation d'un autre tatouage de classe.
+
+

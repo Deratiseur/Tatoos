@@ -1,0 +1,980 @@
+@9001 = ~[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@9002 = ~\(Not[ %tab%]+\|Un\)[Uu]sable[ %tab%]+[Bb]y[ %tab%]*:~
+@0009 = ~You must have ToB installed or use an Enhanced Edition to install this mod.~
+@0 = ~Illo the Tattoo artist~
+@1 = ~Divide the price of tattoos by two (cheating)~
+@2 = ~This component requires the main component~
+@3 = ~This component can only be installed on IWDEE~
+@4 = ~Decrease the price even more~
+@101 = ~Tattoo of protection~
+@102 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Armor Class: +1
+
+Special: cannot be combined with another Tattoo of protection~
+
+@103 = ~Tattoo of superior protection~
+@104 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Armor Class: +2
+
+Special: cannot be combined with another Tattoo of protection~
+
+@105 = ~Tattoo of precision~
+@106 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+THAC0: +1
+
+Special: cannot be combined with another Tattoo of precision~
+
+@107 = ~Tattoo of supreme precision~
+@108 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+THAC0: +3
+Chance to score a critical hit: +5%
+
+Special: cannot be combined with another Tattoo of precision~
+
+@109 = ~Tattoo of resistance~
+@1010 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Saving Throws: +1
+
+Special: cannot be combined with another Tattoo of resistance~
+
+@1011 = ~Tattoo of superior resistance~
+@1012 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Saving Throws: +2
+
+Special: cannot be combined with another Tattoo of resistance~
+
+@1013 = ~Tattoo of endurance~
+@1014 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Hit Points: +3
+
+Special: cannot be combined with another Tattoo of endurance~
+
+@1015 = ~Tattoo of superior endurance~
+@1016 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Hit Points: +9~
+
+@1017 = ~Tattoo of specialisation~
+@1018 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
++1 point of damage on all attacks
+
+Special: cannot be combined with the Tattoo of specialisation~
+
+@1019 = ~Tattoo of supreme specialisation~
+@1020 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
++3 point of damage on all attacks
+THAC0: +3
+
+Special: cannot be combined with the Tattoo of specialisation~
+
+@1021 = ~Tattoo of the three treasures~
+@1022 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Hit points: +5%
+Experience points gain: +5%
+Resistances: +5%~
+
+@1023 = ~Tattoo of the deceitful~
+@1024 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Backstab multiplier : +1~
+
+@1025 = ~Tattoo of the lucky devil~
+@1026 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+Luck: +1~
+
+@201 = ~Tattoo of power~
+@202 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+
+Strength: +1
+Special: cannot be combined with another Tattoo of power~
+
+@203 = ~Tattoo of superior power~
+@204 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Strength: +2
+
+Special: cannot be combined with another Tattoo of power~
+
+@205 = ~Tattoo of action~
+@206 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Dexterity: +1
+
+Special: cannot be combined with another Tattoo of action~
+
+@207 = ~Tattoo of superior action~
+@208 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Dexterity : +2
+
+Special: cannot be combined with another Tattoo of action~
+
+@209 = ~Tattoo of health~
+@2010 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Constitution: +1
+
+Special: cannot be combined with another Tattoo of healt~
+
+@2011 = ~Tattoo of superior health~
+@2012 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Constitution : +2
+
+Special: cannot be combined with another Tattoo of healt~
+
+@2013 = ~Tattoo of spirit~
+@2014 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Wisdom: +1
+
+Special: cannot be combined with the Tattoo of soul~
+
+@2015 = ~Tattoo of soul~
+@2016 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Wisdom: +2
+Special: cannot be combined with the Tattoo of spirit~
+
+@2017 = ~Tattoo of shrewdness~
+@2018 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Intelligence: +1
+
+Special: cannot be combined with the Tattoo of revelation~
+
+@2019 = ~Tattoo of revelation~
+@2020 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Intelligence: +2
+
+Special: cannot be combined with the Tattoo of shrewdnes~
+
+@2021 = ~Tattoo of presence~
+@2022 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Charisma: +1
+
+Special: cannot be combined with another Tattoo of presence~
+
+@2023 = ~Tattoo of superior presence~
+@2024 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Charisma: +2
+
+Special: cannot be combined with another Tattoo of presence~
+
+@2025 = ~Tattoo of transcendance~
+@2026 = ~This is a magical rune inscribed on what appears to be gnomish skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+STATISTICS:
+
+All Ability scores: +1~
+
+@301 = ~Tattoo of the Succubus~
+@302 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Charisma: +1
+Magic Resistance: +5%
+Draining touch (one level lost, on contact) and Charm person once a day each
+
+Special: cannot be combined with another Tattoo of creature~
+@3021 = ~Draining touch~
+@3022 = ~Draining touch (Necromancy)
+level: 5
+Sphere: necromancy
+Range: Touch
+Duration: Special
+Casting Time: 1
+Area of Effect:  1 creature
+Saving Throw: Special
+
+Upon casting this spell, the user has to touch an opponent in order to visit the effect upon them. An item is created upon casting. The next attack the user makes, which must happen in the next 3 rounds, will use this item. If the first attack misses, the item disappears and the spell is wasted; however, if the attack succeeds, the victim automatically lose one level. This spell can be dispelled if cast between the casting of this spell and the necessary attack.~
+
+@303 = ~Tattoo of the Minotaur~
+@304 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Strength: +1
+Maze once a day
+
+Special: cannot be combined with another Tattoo of creature~
+
+@305 = ~Tattoo of the Nymph~
+@306 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Charisma: +2
+Nature's Beauty once a day
+
+Special: cannot be combined with another Tattoo of creature~
+
+@307 = ~Tattoo of the Medusa~
+@308 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Flesh to Stone and Poison (at contact) once a day each
+
+Special: cannot be combined with another Tattoo of creature~
+
+@309 = ~Tattoo of the Troll~
+@3010 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Strength: +1
+Constitution: +1
+Immunity to fear
+Regenerate 1 Hit Point per round
+
+Special: cannot be combined with another Tattoo of creature~
+
+
+@3011 = ~Tattoo of the Modron~
+@3012 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Wisdom: +1
+Intelligence: +1
+Immune to Hold and Charm
+True Sight once a day
+
+Special: cannot be combined with another Tattoo of creature~
+
+@3013 = ~Tattoo of the Devil~
+@3014 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Strength: +1
+Magic Resistance: +10%
+Fire Resistance: +50%
+1 extra attack per round
+
+Special: cannot be combined with another Tattoo of creature
+
+Usable by:
++1 attack/round~
+
+@3015 = ~Tattoo of the Master brain~
+@3016 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Feeblemind and Power Word, Stun once a day each
+
+Special: cannot be combined with another Tattoo of creature~
+
+@401 = ~Tattoo of warrior~
+@402 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Strength: +1
+Armor Class: +1
+Hit Points: +3
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Warrior
+Ranger
+Paladin
+Monk~
+
+@403 = ~Tattoo of supreme warrior~
+@404 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Strength: +3
+Armor Class: +3
+Hit Points: +9
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Warrior
+Ranger
+Paladin
+Monk~
+
+@405 = ~Tattoo of wizard~
+@406 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Intelligence: +1
+Can memorize one extra arcane spell of each level from 1st to 3th
+Decrease spellcasting time by 1
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Wizard
+Bard~
+@4061 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Intelligence: +1
+Can memorize one extra arcane spell of each level from 1st to 3th
+Damage inflicted : 10%
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Wizard
+Bard~
+
+@407 = ~Tattoo of archimage~
+@408 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Intelligence: +3
+Can memorize one extra arcane spell of each level from 1st to 9th
+Decrease spellcasting time by 3
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Wizard
+Bard~
+@4081 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Intelligence: +3
+Can memorize one extra arcane spell of each level from 1st to 9th
+Damage inflicted : 30%
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Wizard
+Bard~
+
+@409 = ~Tattoo of thief~
+@4010 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Dexterity: +1
+Thief skills: +10 points
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Thief~
+
+@4011 = ~Tattoo of master thief~
+@4012 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Dexterity: +3
+Thief skills: +30 points
+Luck: +1
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Thief~
+
+@4013 = ~Tattoo of cleric~
+@4014 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Wisdom: +1
+Can memorize one extra divine spell of each level from 1st to 3th
+Turn Undead Level: +2
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Cleric~
+
+@40141 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Wisdom: +1
+Can memorize one extra divine spell of each level from 1st to 4th
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Cleric~
+
+@4015 = ~Tattoo of archicleric~
+@4016 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Wisdom: +3
+Can memorize one extra divine spell of each level from 1st to 7th
+Turn Undead Level: +6
+Defensive Harmony once a day (AC+4, 1 turn)
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Cleric~
+
+@40161 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Wisdom: +3
+Can memorize one extra divine spell of each level from 1st to 7th
+Can memorize one extra 5th-level cleric spell
+Defensive Harmony once a day (AC+4, 1 turn)
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Cleric~
+
+@4017 = ~Tattoo of the master of the Shi~
+@4018 = ~This is a magical rune inscribed on what appears to be human skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+STATISTICS:
+
+Dexterity: +1
+Constitution: +1
+Wisdom: +1
+1 extra attack per round
+Damage: +3 when attacking with fists
+
+Usable by:
+Monk~
+
+@4019 = ~Tattoo of druid~
+@4020 = ~This is a magical rune inscribed on what appears to be human skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+STATISTICS:
+
+Wisdom: +1
+Can memorize one extra divine spell of each level from 1st to 4th
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Druid~
+
+@4021 = ~Tattoo of Archidruid~
+@4022 = ~This is a magical rune inscribed on what appears to be human skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+
+STATISTICS:
+
+Wisdom: +3
+Can memorize one extra divine spell of each level from 1st to 7th
+Can memorize one extra 5th-level divine spell
+Call woodland beings once a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Druid~
+
+@4023 = ~Tattoo of the Paragon of Virtue~
+@4024 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Strength: +1
+Constitution: +1
+Wisdom: +1
+Charisma: +1
+Chant: +1
+Bless:+1
+Aid: +1
+
+Requires:
+ 15 wisdom
+ 
+Usable by:
+Loyal good paladin~
+
+@4025 = ~Tattoo of the Forester~
+@4026 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Strength: +1
+Dexterity: +1
+Wisdom: +1
+1/2 extra attack per round
++30% to stealth ability
+Conjure animals once a day
+
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Ranger~
+
+@4027 = ~Tattoo of the master of masks~
+@4028 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Dexterity: +1
+Intelligence: +1
+Charisma: +1
+Can memorize one extra arcane spell of each level from 1st to 7th
+Wearing armor does not prevent spellcasting.
+Tenser's Transformation once a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Bard~
+
+@4029 = ~Tattoo of the Heritage~
+@4030 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Constitution: +1
+Intelligence: +1
+Charisma: +1
+Can memorize one extra arcane spell of each level from 1st to 9th
+Decrease spellcasting time by 3
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another class tattoo.
+
+Usable by:
+Sorcerer~
+
+@601 = ~Tattoo of acceleration~
+@602 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Haste once a day~
+
+@603 = ~Tattoo of the vermin~
+@604 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Summon Insects once a day~
+
+@605 = ~Tattoo of the blade master~
+@606 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+Tenser's Deadly strike once a day~
+@6061 = ~Tenser's Deadly strike~
+@6062 = ~Tenser's Deadly strike (Alteration) 
+level: 3
+Range: 0
+Duration 1D4+4 rounds
+Casting Time: 1
+Area of Effect: The caster
+Saving Throw: None
+
+This spell improves the caster's martial abilities: for the duration of the spell, all attacks inflict maximum damage.~
+
+@607 = ~Tattoo of the master of bones~
+@608 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Hold undead once a day~
+
+@609 = ~Tattoo of creepers~
+@6010 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Slashing creepers twice a day~
+@60101 = ~Slashing creepers~
+@60102 = ~Slashing creepers (altération) 
+level: 2
+Sphere: Plant
+Range: Visual range of the caster
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: 15-ft. radius
+Saving Throw: Negate
+
+By means of this spell, the caster is able to cause plants in the area of effect to entangle creatures within the area. The grasses, weeds, bushes, and even trees wrap, twist, and entwine about the creatures, holding them fast and scratching them with thorns. Once per round, a creature can attempt to save vs. Spell to avoid entanglement. An entangled creature can still attack, but receives a -2 penalty to its Armor Class and suffer 1D2 points of slashing damage.~
+
+@6011 = ~Tattoo of the silver tongue~
+@6012 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Charisma: +2
+Friends once a day each~
+
+@6013 = ~Tattoo of the broken lock~
+@6014 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Knock twice a day~
+
+@6015 = ~Tattoo of the restless~
+@6016 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Animate Dead once a day
+
+Special: cannot be combined with the Tattoo of life after death~
+
+@6017 = ~Tattoo of life after death~
+@6018 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Raise dead once a day
+
+Special: cannot be combined with the Tattoo of the restless~
+
+
+@6019 = ~Tattoo of the traveler~
+@6020 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Movement: +2
+Dimension door once a day~
+
+@701 = ~Tattoo of the Gray Waste~
+@702 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Emotion: Despair (stun, save at -4) twice a day
+
+Special: cannot be combined with another Tattoo of Plane~
+@70921 = ~Emotion, Hopelessness~
+@70922 = ~Emotion, Hopelessness (Enchantment/Charm)
+
+Level: 5
+Range: Visual range of the caster
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: 7-ft. radius
+Saving Throw: Neg.
+
+This spell creates the emotion of hopelessness within the area of effect. All enemies who fail to save vs. Spell at -4 just stand and do nothing for 1 turn. This spell nullifies Emotion, Hope within the area of effect at the time of casting.~
+
+@703 = ~Tattoo of the Abyss~
+@704 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Summon Fiend once a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@705 = ~Tattoo of Carceri~
+@706 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Imprisonment (saving throw against spells at -4 and magic resistance allowed) once a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@7061 = ~Imprisonment (Abjuration)
+
+Level: 9
+Range: Touch 
+Duration: Permanent
+Casting Time: 9
+Area of Effect: 1 creature
+Saving Throw: Negate
+
+When the Imprisonment spell is cast and the victim is touched, the vistime is entombed in a state of suspended animation in a small sphere far beneath the surface of the earth. The victim remains there unless a reverse of the spell—Freedom—is cast. Otherwise, the victim will remain there as long as the earth exists; rather a horrible fate, actually. If a Freedom spell is cast in the area where the creature was imprisoned, then <PRO_HESHE> will reappear exactly where <PRO_HESHE> was last standing. Dispel Magic will not free creatures trapped in this manner and she can only protect herself from this spell by succeeding at a saving throw against spells at -4~
+
+@707 = ~Tattoo of Baator~
+@708 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Gate once a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@709 = ~Tattoo of Mount Celestia~
+@7010 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Summon Deva once a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.
+
+Usable by:
+Lawful Good~
+
+@7011 = ~Tattoo of Gehenna~
+@7012 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Volcanic rain (Rain of fire/cold/acid, 9D6, 4 rounds) once a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@70121 = ~Volcanic rain~
+@70122 = ~Volcanic rain (Evocation)
+Level : 9
+Range: 40m
+Duration: 4 rounds
+Casting time: 1
+Area of Effect: 15-ft. radius
+Saving Throw: No
+
+Numerous volcanic slag bombs fall in the designated area. Anyone in this area, friend or foe, suffers 4D6 points of fire damage, 3D6 points of cold damage and 2D6 points of acid damage. The magician is encouraged to take every precaution when using this spell.~
+
+@7013 = ~Tattoo of the Pandemonium~
+@7014 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Chaos twice a day
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@7015 = ~Tattoo of Mechanus~
+@7016 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+True Sight and Chaotic commands (personal) once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@7017 = ~Tattoo of Bytopia~
+@7018 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Protection From Evil, 10' Radius and Conjure Animals once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@7019 = ~Tattoo of the elemental plane of earth~
+@7020 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Conjure Earth Elemental and Stoneskin once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@7021 = ~Tattoo of the Positive energy plane~
+@7022 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
+
+STATISTICS:
+
+Regeneration and Negative Plane Protection (2 turns) once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@7023 = ~Tattoo of Arborea~
+@7024 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Allows to use Barbarian Rage twice a day.
+Call Woodland Beings once a day.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+
+@7025 = ~Tattoo of the elemental plane of air~
+@7026 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Conjure Air archomental and Chain Lightning once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@70261 = ~Conjure Air Archomental~
+@70262 = ~Conjure Air Archomental (Convocation)
+Level: 8
+Range: Visual range of the caster
+Duration: 2 turns
+Casting time: 1
+Area of effect: special
+Saving throw: no
+
+The caster can summon the Prince of the Air, Chan, from the Elemental Plane of Air. Chan remains at the summoner's disposal for 2 turns.~
+
+@7027 = ~Tattoo of Limbo~
+@7028 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Throw on the Wild Surge chart: +20
+Phantom Blade and Entropic zone once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@70281 = ~Entropic zone~
+@70282 = ~Entropic zone (Conjuration/Convocation)
+Level : 7
+Range: Visual range of the caster
+Duration: 1 round
+Casting time: 1
+Area of Effect: 15-ft. radius
+Saving throw: no
+
+This spell creates a chaotic movement in the web at the location designated by the mage, which disturbs the aura of all spellcasters present (except the caster of this spell): each time they attempt to cast a spell, it creates a wild surge. There is no saving throw possible against this spell, but resistance to magic allows to avoid its effects.~
+
+@7029 = ~Tattoo of Acheron~
+@7030 = ~This is a magical rune inscribed on what appears to be elven skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Conjure Elite orc troop and Transmute flesh to stone once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@70301 = ~Conjure Elite orc troop~
+@70302 = ~Conjure Elite orc troop (Conjuration/Convocation) 
+Level: 9
+Range: 40 metres
+Duration: 2 turns
+Casting time: 1 
+Area of effect: special 
+Saving throw: none 
+
+This spell summons a troop of 1D10+8 elite orcs from Acheron. The orcs will obey the caster to the best of their ability, until their death or the end of the spell.~
+
+@7031 = ~Tattoo of the quasielemental plane of radiance~
+@7032 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Prismatic Spray (saves at -4) and Sunray once a day each.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@70322 = ~Prismatic Spray (Conjuration/Summoning)
+
+Level: 8
+Range: 0
+Duration: Instant
+Casting Time: 7
+Area of Effect: 23-ft. cone with 90-deg. arc
+Saving Throw: Special
+
+This spell causes shimmering rays of light to flash from the wizard's hand in a 23-ft. cone. Any creature touched by the rays may be inflicted with a random effect depending on the color (see below), but any creature with fewer than 8 Hit Dice is blinded for 5 rounds regardless of any additional effect. The colors of the prismatic spray do the following:
+
+Red: 20 magic damage (save vs. Spell for half)
+Orange: 40 magic damage (save vs. Spell for half)
+Yellow: 80 magic damage (save vs. Spell for half)
+Green: Save vs. Poison or dieâ€”survivors still take 20 poison damage
+Blue: Save vs. Petrification or turn to stone
+Indigo: Save vs. Wand or go insane
+Purple: Save vs. Spell or is disintegrate
+
+All saving throws against this planar version of this spell are made at -4.~
+
+@7033 = ~Tattoo of the Outlands~
+@7034 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Protection of the rings (blocks level 7 to 9 spells) once a day.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@70341 = ~Protection of the rings~
+@70342 = ~Protection of the rings (Abjuration)
+Level: 10
+Range: 0
+Duration: 15 rounds
+Casting time: 1
+Area of effect: the caster
+Saving throw: None
+
+This spell creates an immobile magical sphere around the caster that renders them invulnerable to all 9th, 8th and 7th level spells (i.e. the areas of effect of these spells do not penetrate the sphere's area of effect). Spells of 6th level and below are not affected by the sphere. It is possible to get rid of such a sphere using a magic dispel or a piercing magic spell.~
+
+@7035 = ~Tattoo of the quasielemental plane of vacuum~
+@7036 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
+
+STATISTICS:
+
+Disintegrate (save at -4) twice a day.
+
+Special: This tattoo is exclusive: using it prevents you from benefiting from the effects of another outer plane tattoo.~
+@70362 = ~Disintegration (Alteration)
+Level : 7
+Range: Visual range of the caster
+Duration: Instantaneous
+Casting Time: 1
+Area of effect: Target
+Saving Throw: Cancels
+
+A green beam is directed at the target. On contact, the target must pass a saving throw against spells at -4 or be transformed into countless particles of vacuum. This destruction is immediate and irreversible. It will also destroy all or part of the target's equipment.~

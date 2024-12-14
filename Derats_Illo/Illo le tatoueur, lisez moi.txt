@@ -9,6 +9,8 @@ Ils sont chers, mais ils sont puissants. Je sais que vous aimez ça.
 
 Un composant optionnel permet de diviser les prix par deux afin de les rendre plus abordables.
 
+Un deuxième composant optionnel (uniquement pour IWDEE) réduit encore de 20% le prix des tatouages (parce que dans IWDEE l'économie n'est pas la même que celle de BG2EE)
+
 
 Lise des tatouages disponibles :
 D'amélioration : normal ou supérieur, c'est l'un ou l'autre, pas les deux.
@@ -42,18 +44,22 @@ De présence supérieure		+2 CHA		50K
 De Transcendance			+1 à toutes les caractéristiques	200K
 
 De classe : normal ou supérieur, c'est l'un ou l'autre, pas les deux, et c'est classe réservé.
-De guerrier					+1 FOR, +1 CA, +3 points de vie maximum															75K
-De guerrier suprême			+3 FOR, +3 CA, +9 points de vie maximum															300K
-De mage						+1 INT, +1 sort des niveaux 1 à 3, -1 au temps d'incantation (non-EE) / dégâts +10%	(EE)		75K
-D'archimage					+3 INT, +1 sort des niveaux 1 à 9, -3 au temps d'incantation (non-EE) / dégâts +30%	(EE)		300K
-De voleur					+1 DEX, +1 TAC0, +10 à toutes les compétence de voleur											75K
-De maître voleur			+3 DEX, +3 TAC0, +30 à toutes les compétence de voleur, chance +1								300K
-De prêtre					+1 SAG, +1 sort de niveau 1 et 2, +2 au niveau de renvoi										75K
-D'archiprêtre				+3 SAG, +1 sort de niveau 1 à 7, +6 au niveau de renvoi, 1x/jour Harmonie défen. (+4, 1 tour)	300K
-De druide					+1 SAG, +1 sort de niveau 1 à 4																	75K
-D'Archidruide				+3 SAG, +1 sort de niveau 1 à 7, +1 sort de niveau 5, 1x/jour Appel de créature des bois		300K
-Du maître du Shi			+1 DEX, +1 CON, +1 SAG, +1 attaque par round, +3 dégâts avec les poings							300K
-Du Parangon de vertu		+1 FOR, +1 SAG, +2 CHA, Chant +1, Aide +1, Bénédiction +1  (sagesse requise 15)					360K
+De guerrier					+1 FOR, +1 CA, +3 points de vie maximum																75K
+De guerrier suprême			+3 FOR, +3 CA, +9 points de vie maximum																300K
+De mage						+1 INT, +1 sort des niveaux 1 à 3, -1 au temps d'incantation (non-EE) / dégâts +10%	(EE)			75K
+D'archimage					+3 INT, +1 sort des niveaux 1 à 9, -3 au temps d'incantation (non-EE) / dégâts +30%	(EE)			300K
+De voleur					+1 DEX, +1 TAC0, +10 à toutes les compétence de voleur												75K
+De maître voleur			+3 DEX, +3 TAC0, +30 à toutes les compétence de voleur, chance +1									300K
+De prêtre					+1 SAG, +1 sort de niveau 1 et 2, +2 au niveau de renvoi											75K
+D'archiprêtre				+3 SAG, +1 sort de niveau 1 à 7, +6 au niveau de renvoi, 1x/jour Harmonie défen. (CA +4, 1 tour)	300K
+De druide					+1 SAG, +1 sort de niveau 1 à 4																		75K
+D'Archidruide				+3 SAG, +1 sort de niveau 1 à 7, +1 sort de niveau 5, 1x/jour Appel de créature des bois			300K
+Du maître du Shi			+1 DEX, +1 CON, +1 SAG, +1 attaque par round, +3 dégâts avec les poings								300K
+De forestier				+1 FOR, +1 DEX, +1 SAG, +1/2 attaque par round, +30 en dissimulation, 1x/jour conjuration d'animaux	300K
+Du maître des masques		+1 DEX, +1 INT, +1 CHA, +1 sort de niveau 1 à 7, Incantation en armure, 1x/jour Transformation de Tenser	300K
+De l'Héritage				+1 CON, +1 INT, +1 CHA, +1 sort des niveaux 1 à 9, -3 au temps d'incantation						300K
+Du Parangon de vertu		+1 FOR, +1 CON, +1 SAG, +1 CHA, Chant +1, Aide +1, Bénédiction +1  (sagesse requise 15)				360K
+
 
 D'accélération				1x/jour Hâte												60K
 De la vermine				1x jour Convocation d'insectes								60K
