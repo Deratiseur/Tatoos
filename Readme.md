@@ -13,7 +13,7 @@
 ## Description:
 -------------
 
-Un marchand qui vend 79 tatouages à usage unique qui fonctionnent comme des tomes, mais en version ++
+Un marchand qui vend 77 tatouages à usage unique qui fonctionnent comme des tomes, mais en version ++
 
 Vous vous rappelez des tatouages de PST ? Il y a les mêmes, et plein d'autres.
 
@@ -25,7 +25,7 @@ Vous trouverez le marchand dans IWDEE à coté de la forge de Coulon à Kuldahar
 
 -------------
 
-A merchant selling 79 single-usage tattoos that work like tomes, but in a ++ version.
+A merchant selling 77 single-usage tattoos that work like tomes, but in a ++ version.
 
 Remember PST's tattoos? They're the same, and lots more.
 
