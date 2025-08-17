@@ -28,4 +28,14 @@ Correction du prix bugué du Tatouage de Précision suprême.
 Correction du tatouage pour moine qui conférait trois attaques/round au lieu de une.
 Correction des tatouages de classes qui affichaient un texte étrange en cas d'essai d'utilisation d'un autre tatouage de classe.
 
+V5.1 :
+Mise à jour des fichiers sur Github.
+
+v5.2 :
+Dans le magasin il manquait le tatouage d'Archidruide.
+
+V5.3 :
+Correction des tatouages de classes supérieures qui donnaient les bonus des tatouages de classe normaux.
+
+
 

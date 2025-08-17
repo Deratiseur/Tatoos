@@ -1,6 +1,6 @@
 BACKUP ~Derats_Illo/Backup~
 AUTHOR ~Deratiseur, at the_deratiseur@hotmail.com~
-VERSION ~v5~
+VERSION ~v5.3~
 
 AUTO_TRA ~Derats_Illo/Languages/%s~ /////%s~
 
@@ -117,17 +117,17 @@ COPY_EXISTING	~pxilmedu.spl~		~override/pxilcerv.spl~	WRITE_ASCII 0xae ~pxilcrv1
 
 //Boost par classe (un seul, aucun autre, exception transcendance)
 COPY	~Derats_Illo/tatoos/pxilger1.itm~		~override~	SAY NAME2 @401	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@402" END
-COPY_EXISTING	~pxilger1.itm~		~override/pxilger2.itm~	SAY NAME2 @403	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@404" END	WRITE_ASCII 0x1be ~pxilger2~ #8	WRITE_ASCII 0xee ~pxilger1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilger1.itm~		~override/pxilger2.itm~	SAY NAME2 @403	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@404" END	WRITE_ASCII 0xbe ~pxilger2~ #8	WRITE_ASCII 0xee ~pxilger1~ #8	WRITE_LONG 0x34 300000
 COPY_EXISTING	~pxilger1.spl~		~override/pxilger2.spl~	WRITE_BYTE 0x9e 3	WRITE_BYTE 0xce 3	WRITE_BYTE 0xfe 9
 COPY	~Derats_Illo/tatoos/pxilmag1.itm~		~override~	SAY NAME2 @405	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@406" END
-COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@408" END	WRITE_ASCII 0x1be ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@408" END	WRITE_ASCII 0xbe ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
 COPY	~Derats_Illo/tatoos/pxilvol1.itm~		~override~	SAY NAME2 @409	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4010" END
-COPY_EXISTING	~pxilvol1.itm~		~override/pxilvol2.itm~	SAY NAME2 @4011	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4012" END	WRITE_ASCII 0x1be ~pxilvol2~ #8	WRITE_ASCII 0xee ~pxilvol1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilvol1.itm~		~override/pxilvol2.itm~	SAY NAME2 @4011	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4012" END	WRITE_ASCII 0xbe ~pxilvol2~ #8	WRITE_ASCII 0xee ~pxilvol1~ #8	WRITE_LONG 0x34 300000
 ACTION_IF GAME_IS ~TOB BGT~ THEN BEGIN
 COPY	~Derats_Illo/tatoos/pxilclr1.itm~		~override~	SAY NAME2 @4013	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40141" END
-COPY_EXISTING	~pxilclr1.itm~		~override/pxilclr2.itm~	SAY NAME2 @4015	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40161" END	WRITE_ASCII 0x1be ~pxilclr2~ #8	WRITE_ASCII 0xee ~pxilclr1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilclr1.itm~		~override/pxilclr2.itm~	SAY NAME2 @4015	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@40161" END	WRITE_ASCII 0xbe ~pxilclr2~ #8	WRITE_ASCII 0xee ~pxilclr1~ #8	WRITE_LONG 0x34 300000
 COPY	~Derats_Illo/tatoos/pxilmag1.itm~		~override~	SAY NAME2 @405	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@406" END
-COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@408" END	WRITE_ASCII 0x1be ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@408" END	WRITE_ASCII 0xbe ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
 COPY	~Derats_Illo/sorts/pxilclr1.spl~		~override~
 		~Derats_Illo/sorts/pxilclr2.spl~		~override~
 COPY	~Derats_Illo/sorts/pxilmag1.spl~		~override~
@@ -135,17 +135,17 @@ COPY_EXISTING	~pxilmag1.spl~		~override/pxilmag2.spl~	WRITE_BYTE 0x9e 3	WRITE_LO
 END
 ACTION_IF GAME_IS ~BGEE BG2EE EET IWDEE~ THEN BEGIN
 COPY	~Derats_Illo/tatoos/pxilclr1.itm~		~override~	SAY NAME2 @4013	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4014" END
-COPY_EXISTING	~pxilclr1.itm~		~override/pxilclr2.itm~	SAY NAME2 @4015	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4016" END	WRITE_ASCII 0x1be ~pxilclr2~ #8	WRITE_ASCII 0xee ~pxilclr1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilclr1.itm~		~override/pxilclr2.itm~	SAY NAME2 @4015	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4016" END	WRITE_ASCII 0xbe ~pxilclr2~ #8	WRITE_ASCII 0xee ~pxilclr1~ #8	WRITE_LONG 0x34 300000
 COPY	~Derats_Illo/Divers/EE/pxilclr1.spl~	~override~
 		~Derats_Illo/Divers/EE/pxilclr2.spl~	~override~
 		~Derats_Illo/Divers/EE/pxilmag1.spl~	~override~
 COPY	~Derats_Illo/tatoos/pxilmag1.itm~		~override~	SAY NAME2 @405	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4061" END
-COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4081" END	WRITE_ASCII 0x1be ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxilmag1.itm~		~override/pxilmag2.itm~	SAY NAME2 @407	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4081" END	WRITE_ASCII 0xbe ~pxilmag2~ #8	WRITE_ASCII 0xee ~pxilmag1~ #8	WRITE_LONG 0x34 300000
 COPY_EXISTING	~pxilmag1.spl~		~override/pxilmag2.spl~	WRITE_BYTE 0x9e 3	WRITE_LONG 0xd2 511	WRITE_BYTE 0xfe 30
 END
 COPY	~Derats_Illo/tatoos/pxilmoin.itm~		~override~	SAY NAME2 @4017	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4018" END
 COPY	~Derats_Illo/tatoos/pxildru1.itm~		~override~	SAY NAME2 @4019	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4020" END
-COPY_EXISTING	~pxildru1.itm~		~override/pxildru2.itm~	SAY NAME2 @4021	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4022" END	WRITE_ASCII 0x1be ~pxildru2~ #8	WRITE_ASCII 0xee ~pxildru1~ #8	WRITE_LONG 0x34 300000
+COPY_EXISTING	~pxildru1.itm~		~override/pxildru2.itm~	SAY NAME2 @4021	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4022" END	WRITE_ASCII 0xbe ~pxildru2~ #8	WRITE_ASCII 0xee ~pxildru1~ #8	WRITE_LONG 0x34 300000
 COPY	~Derats_Illo/sorts/pxilclr1.spl~	~override/pxildru1.spl~
 COPY	~Derats_Illo/sorts/pxilclr2.spl~	~override/pxildru2.spl~	WRITE_ASCII 0x13e ~pxildrux~ #8
 COPY	~Derats_Illo/tatoos/pxilpala.itm~		~override~	SAY NAME2 @4023	LPF ~GW_WRITE_EE_ITM_DESCRIPTIONS~ STR_VAR GW_desc_to_update = "@4024" END
