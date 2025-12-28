@@ -150,7 +150,7 @@ Special: cannot be combined with another Tattoo of action~
 
 STATISTICS:
 
-Dexterity : +2
+DexterityÂ : +2
 
 Special: cannot be combined with another Tattoo of action~
 
@@ -205,7 +205,7 @@ STATISTICS:
 
 Intelligence: +2
 
-Special: cannot be combined with the Tattoo of shrewdnes~
+Special: cannot be combined with the Tattoo of shrewdness~
 
 @2021 = ~Tattoo of presence~
 @2022 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
@@ -226,7 +226,7 @@ Charisma: +2
 Special: cannot be combined with another Tattoo of presence~
 
 @2025 = ~Tattoo of transcendance~
-@2026 = ~This is a magical rune inscribed on what appears to be gnomish skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+@2026 = ~This is a magical rune inscribed on what appears to be gnomish skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
 
@@ -505,7 +505,7 @@ Usable by:
 Cleric~
 
 @4017 = ~Tattoo of the master of the Shi~
-@4018 = ~This is a magical rune inscribed on what appears to be human skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+@4018 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
 
@@ -519,7 +519,7 @@ Usable by:
 Monk~
 
 @4019 = ~Tattoo of druid~
-@4020 = ~This is a magical rune inscribed on what appears to be human skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+@4020 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
 
@@ -532,7 +532,7 @@ Usable by:
 Druid~
 
 @4021 = ~Tattoo of Archidruid~
-@4022 = ~This is a magical rune inscribed on what appears to be human skin. Pour l'utiliser il faut l’appliquer sur une partie du corps, après quoi elle fusionne avec celui-ci, inscrivant la rune en tant que tatouage et conférant son pouvoir.
+@4022 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting its power.
 
 STATISTICS:
 
@@ -659,7 +659,7 @@ STATISTICS:
 
 Slashing creepers twice a day~
 @60101 = ~Slashing creepers~
-@60102 = ~Slashing creepers (altération) 
+@60102 = ~Slashing creepers (altÃ©ration) 
 level: 2
 Sphere: Plant
 Range: Visual range of the caster
@@ -758,7 +758,7 @@ Casting Time: 9
 Area of Effect: 1 creature
 Saving Throw: Negate
 
-When the Imprisonment spell is cast and the victim is touched, the vistime is entombed in a state of suspended animation in a small sphere far beneath the surface of the earth. The victim remains there unless a reverse of the spell—Freedom—is cast. Otherwise, the victim will remain there as long as the earth exists; rather a horrible fate, actually. If a Freedom spell is cast in the area where the creature was imprisoned, then <PRO_HESHE> will reappear exactly where <PRO_HESHE> was last standing. Dispel Magic will not free creatures trapped in this manner and she can only protect herself from this spell by succeeding at a saving throw against spells at -4~
+When the Imprisonment spell is cast and the victim is touched, the vistime is entombed in a state of suspended animation in a small sphere far beneath the surface of the earth. The victim remains there unless a reverse of the spellÂ—FreedomÂ—is cast. Otherwise, the victim will remain there as long as the earth exists; rather a horrible fate, actually. If a Freedom spell is cast in the area where the creature was imprisoned, then <PRO_HESHE> will reappear exactly where <PRO_HESHE> was last standing. Dispel Magic will not free creatures trapped in this manner and she can only protect herself from this spell by succeeding at a saving throw against spells at -4~
 
 @707 = ~Tattoo of Baator~
 @708 = ~This is a magical rune inscribed on what appears to be human skin. To use it, it must be applied to a part of the body, after which it fuses with the body, inscribing the rune as a tattoo and granting a power.
@@ -935,7 +935,7 @@ This spell causes shimmering rays of light to flash from the wizard's hand in a 
 Red: 20 magic damage (save vs. Spell for half)
 Orange: 40 magic damage (save vs. Spell for half)
 Yellow: 80 magic damage (save vs. Spell for half)
-Green: Save vs. Poison or dieâ€”survivors still take 20 poison damage
+Green: Save vs. Poison or dieÃ¢Â€Â”survivors still take 20 poison damage
 Blue: Save vs. Petrification or turn to stone
 Indigo: Save vs. Wand or go insane
 Purple: Save vs. Spell or is disintegrate
@@ -976,5 +976,6 @@ Duration: Instantaneous
 Casting Time: 1
 Area of effect: Target
 Saving Throw: Cancels
+
 
 A green beam is directed at the target. On contact, the target must pass a saving throw against spells at -4 or be transformed into countless particles of vacuum. This destruction is immediate and irreversible. It will also destroy all or part of the target's equipment.~
