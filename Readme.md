@@ -18,7 +18,7 @@ Un marchand qui vend 77 tatouages à usage unique qui fonctionnent comme des tom
 Vous vous rappelez des tatouages de PST ? Il y a les mêmes, et plein d'autres.
 
 Vous trouverez le marchand :
-- dans BG2 à l’extérieur de la guilde des voleurs, au sud sous le préau ombragé.
+- dans BG2(EE) à l’extérieur de la guilde des voleurs, au sud sous le préau ombragé.
 - dans les fosses noires 2 à l'écart du cercle des marchands.
 - dans IWDEE à coté de la forge de Coulon à Kuldahar.
 
@@ -29,7 +29,7 @@ A merchant selling 77 single-usage tattoos that work like tomes, but in a ++ ver
 Remember PST's tattoos? They're the same, and lots more.
 
 You'll find the merchant:
-- in BG2 outside the thieves' guild, to the south under the shady courtyard.
+- in BG2(EE) outside the thieves' guild, to the south under the shady courtyard.
 - in the Black Pits 2, away from the merchants' circle.
 - in IWDEE, next to Coulon's forge in Kuldahar.
 
