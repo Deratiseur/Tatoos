@@ -5,7 +5,7 @@ VERSION ~v5.3~
 AUTO_TRA ~Derats_Illo/Languages/%s~ /////%s~
 
 ALWAYS
-	ACTION_DEFINE_ARRAY px_noconvert BEGIN END
+	ACTION_DEFINE_ARRAY px_noconvert BEGIN install.tra END
 	ACTION_DEFINE_ARRAY px_reload BEGIN
 	Setup.tra
 	Illodlg.tra
@@ -27,6 +27,11 @@ LANGUAGE ~Francais~	~French~
 	LANGUAGE ~English~	~English~
 	~Derats_Illo/Languages/English/Setup.tra~
 	~Derats_Illo/Languages/English/Illodlg.tra~
+	
+	LANGUAGE ~Schinese~	~Schinese~
+	~Derats_Illo/Languages/Schinese/install.tra~
+	~Derats_Illo/Languages/Schinese/Illodlg.tra~
+
 
 BEGIN @0
 REQUIRE_PREDICATE GAME_IS ~BGT TOB BGEE BG2EE EET IWDEE~ @0009
