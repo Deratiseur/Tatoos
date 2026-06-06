@@ -37,5 +37,11 @@ Dans le magasin il manquait le tatouage d'Archidruide.
 V5.3 :
 Correction des tatouages de classes supérieures qui donnaient les bonus des tatouages de classe normaux.
 
+V5.4 :
+Correction de la version anaglaise par SonnePw.
+
+V6 :
+Traduction en chinois par eva2000as.
+
 
 
